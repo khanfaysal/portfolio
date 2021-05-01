@@ -5,9 +5,87 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* CUSTOM CSS CODE */
+*{
+  list-style-type: none;
+  outline: none !important;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+.banner-heading{
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  font-weight:700;
+  color: #0b2154;
+  text-transform: capitalize;
+}
+.all-heading, .name-heading{
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Playfair Display', serif;
+  font-weight:600;
+  color: #0b2154;
+  font-size: 30px;
+}
+.sub-heading{
+  font-family: 'Poppins', sans-serif;
+  font-weight:700;
+  color:  #0b2154;
+  font-size: 30px;
+  word-spacing: 5px;
+  text-transform: capitalize;
+}
+.paragraph-text{
+  font-family: 'Poppins', sans-serif;
+  font-weight:400;
+  color: #5c5c6f;
+  font-size: 13px;
+}
+
+.brand-btn{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    color: #0b2154;
+    border: 2px solid #706fd3;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    line-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* transition: all .2s; */
+
+}
+.brand-txt{
+  color: #d81324 !important;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 20px;
+  font-weight:700;
+  text-transform:capitalize;
+  
+}
+.section{
+  margin-top: 120px;
+
+}
+/* .brand-heading{
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 50px;
+  font-weight:700;
+  color: #0b2154;
+  text-transform: capitalize;
+} */
+

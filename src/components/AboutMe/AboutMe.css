@@ -1,0 +1,23 @@
+.my-description{
+    font-family: 'Poppins', sans-serif;
+    font: size 16px;
+    font-weight: 400;
+    color: #0b2154;
+    line-height: 1.7;
+}
+.about-list li .title{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font: size 16px;
+    font-weight: 400;
+    color: #706fd3;
+    font-weight: 600; 
+}
+.about-list li .value{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font: size 16px;
+    font-weight: 400;
+    color: #0b2154;
+    font-weight: 600; 
+}
