@@ -1,7 +1,4 @@
 import React from 'react';
-import bookShop from '../../../images/bookshop.png';
-import carService from '../../../images/carService.png';
-import rideService from '../../../images/rideService.png';
 import ProjectSummaryDetails from '../ProjectsSummaryDetails/ProjectSummaryDetails';
 import './ProjectSummary.css';
 

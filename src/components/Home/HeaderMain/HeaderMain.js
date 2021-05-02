@@ -1,6 +1,5 @@
 import React from 'react';
 import logo from '../../../images/testhero.png';
-import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithubAlt, faLinkedinIn, faTwitter,faYoutube } from '@fortawesome/free-brands-svg-icons';
 import './HeaderMain.css';
