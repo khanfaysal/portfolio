@@ -1,7 +1,9 @@
 import React from 'react';
 import HeaderMain from '../HeaderMain/HeaderMain';
 import MyStatistics from '../MyStatistics/MyStatistics';
-import Navbar from '../Navbar/Navbar';
+import Navbar from '../../Shared/Navbar/Navbar';
+
+
 
 const Header = () => {
     return (

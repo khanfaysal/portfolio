@@ -12,10 +12,10 @@ const HeaderMain = () => {
                     {/* <h6><FontAwesomeIcon icon={faGithubAlt} /></h6>
                     <h6><FontAwesomeIcon icon={faLinkedinIn} /></h6> */}
                     <ul>
-                        <li><Link to="/home"><FontAwesomeIcon icon={faGithubAlt}></FontAwesomeIcon></Link></li>
-                        <li><Link to="/home"><FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon></Link></li>
-                        <li><Link to="/home"><FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon></Link></li>
-                        <li><Link to="/home"><FontAwesomeIcon icon={faYoutube}></FontAwesomeIcon></Link></li>
+                        <li><a href='https://github.com/khanfaysal'><FontAwesomeIcon icon={faGithubAlt}></FontAwesomeIcon></a></li>
+                        <li><a href='https://www.linkedin.com/in/faysal-khan-47aa8710a/'><FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon></a></li>
+                        <li><a href='https://twitter.com/mdfaysalkhancs1'><FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon></a></li>
+                        <li><a href='https://www.youtube.com/channel/UC8tpeYzbPaqKWDVqESCmxew'><FontAwesomeIcon icon={faYoutube}></FontAwesomeIcon></a></li>
                         
                     </ul>
                 </div>

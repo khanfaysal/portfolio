@@ -1,0 +1,17 @@
+
+.portfolio-form input{
+    border:none;
+    border-bottom: 2px solid #706fd3;
+    border-radius: 0;
+}
+.portfolio-form textarea{
+    border:none;
+    border-bottom: 2px solid #706fd3;
+    border-radius: 0;
+}
+.portfolio-form input:focus{
+    border:none;
+    outline:none;
+    border-bottom: 2px solid #706fd3;
+    border-radius: 0;
+}

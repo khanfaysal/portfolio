@@ -1,17 +1,18 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import './ProjectSummaryDetails.css';
 
 const ProjectSummaryDetails = ({ proData }) => {
   return (
     <div className="col-md-4">
-      <div class="card" style={{ width: "18rem" }}>
+      <div className="card" style={{ width: "23rem" }}>
         <img src={proData.image} class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title pt-3">{proData.title}</h5>
-          <p class="card-text">{proData.description}</p>
-          <Link href="#" class="btn btn-primary">
-            see more
-          </Link>
+        <div className="card-body card-size">
+          <h5 className="card-title pt-3">{proData.title}</h5>
+          <p className="card-text">{proData.description}</p>
+         <div className="link-part d-flex justify-content-around">
+            <div className="live-btn"> <a href={proData.liveLink} className="card-btn">Live link</a></div>
+            <div className="live-btn"><a href={proData.codeLink} className="card-btn">Code link</a></div>
+         </div>
         </div>
       </div>
     </div>

@@ -10,7 +10,15 @@
 }
 .social-part ul li{
     padding-top: 10px;
+    
 }
+.social-part ul li a{
+  color: #706fd3
+}
+.social-part ul li a:hover{
+  color: #0b2154;
+}
+
 .my-logo {
     pointer-events: none;
 }
@@ -28,6 +36,7 @@
       transform: rotate(360deg);
     }
   }
+
   
 
 
