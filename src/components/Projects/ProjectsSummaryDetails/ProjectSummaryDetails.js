@@ -3,7 +3,7 @@ import './ProjectSummaryDetails.css';
 
 const ProjectSummaryDetails = ({ proData }) => {
   return (
-    <div className="col-md-4">
+    <div className="col-md-6">
       <div className="card" style={{ width: "23rem" }}>
         <img src={proData.image} class="card-img-top" alt="..." />
         <div className="card-body card-size">
