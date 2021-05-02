@@ -17,11 +17,13 @@ const HeaderMain = () => {
                         <li><a href='https://www.youtube.com/channel/UC8tpeYzbPaqKWDVqESCmxew'><FontAwesomeIcon icon={faYoutube}></FontAwesomeIcon></a></li>
                         
                     </ul>
+                    
                 </div>
                 <div className="col-md-12 text-center">
                     <img src={logo} alt="" className="my-logo img-fluid rounded-circle"/>
                     <h3 className="name-heading pt-3">FAYSAL KHAN</h3>
                     <h1 className='banner-heading'>React Developer</h1>
+                    <p><a style={{textDecoration:"none",color:"#0b2154"}} href="https://drive.google.com/uc?id=1GTSV191YzbblG-2RtlyQ5kUFIeWeSCoG">Download Resume</a></p>
                 </div>
             </main>
     );
