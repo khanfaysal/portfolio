@@ -11,11 +11,13 @@ import Resume from "./components/Resume/Resume";
 import Blogs from "./components/Blogs/Blogs";
 import Contact from "./components/Contact/Contact";
 import ProjectsSummary from "./components/ProjectsSummary/ProjectsSummary";
+import Navbar from "./components/Shared/Navbar/Navbar";
 
 
 function App() {
   return (
     <Router>
+      <Navbar></Navbar>
       <Switch>
         <Route exact path="/">
           <Home></Home>
