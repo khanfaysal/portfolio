@@ -19,7 +19,7 @@ const HeaderMain = () => {
                     </ul>
                     
                 </div>
-                <div className="col-md-12 text-center">
+                <div className="col-md-12 text-center pt-5">
                     <img src={logo} alt="" className="my-logo img-fluid rounded-circle"/>
                     <h3 className="name-heading pt-3">FAYSAL KHAN</h3>
                     <h1 className='banner-heading'>React Developer</h1>

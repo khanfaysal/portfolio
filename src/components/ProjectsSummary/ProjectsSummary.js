@@ -24,7 +24,7 @@ const ProjectsSummary = () => {
         {
             image:rideService,
             title:'Grab Rides Website',
-            description:'Customer booking rides from different vehicles chosen if he/she already login.Can choose pick and destination point and also see google map (static).Besides customer to see the vehicle availability.',
+        description:'Customer booking rides from different vehicles chosen if he/she already login.Can choose pick and destination point and also see google map (static).Besides customer to see the vehicle availability.',
             liveLink:'https://react-auth-assignment-89f47.web.app/',
             codeLink:'https://github.com/khanfaysal/grab-rides'
         }
