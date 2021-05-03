@@ -10,7 +10,7 @@ import Home from"./components/Home/Home/Home";
 import Resume from "./components/Resume/Resume";
 import Blogs from "./components/Blogs/Blogs";
 import Contact from "./components/Contact/Contact";
-import ProjectsSummary from "./components/Projects/ProjectsSummary/ProjectsSummary";
+import ProjectsSummary from "./components/ProjectsSummary/ProjectsSummary";
 
 
 function App() {

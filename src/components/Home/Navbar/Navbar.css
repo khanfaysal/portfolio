@@ -1,0 +1,10 @@
+.navbar-nav .nav-link{
+    font-size:14px;
+    font-weight:700;
+    font-family: 'Poppins', sans-serif;
+    color:#706fd3;
+    
+}
+.navbar-nav .nav-item{
+    margin: 0 15px;
+}
