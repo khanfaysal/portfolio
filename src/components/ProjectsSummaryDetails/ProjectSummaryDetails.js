@@ -11,7 +11,7 @@ const ProjectSummaryDetails = ({ proData }) => {
           <p className="card-text">{proData.description}</p>
          <div className="link-part d-flex justify-content-around">
             <div className="live-btn"> <a href={proData.liveLink} className="card-btn">Live link</a></div>
-            <div className="live-btn"><a href={proData.codeLink} className="card-btn">Code link</a></div>
+            <div className="code-btn"><a href={proData.codeLink} className="card-btn">Code link</a></div>
          </div>
         </div>
       </div>

@@ -95,3 +95,10 @@ code {
 }
 
 
+#typewritter-heading{
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  font-weight:700;
+  color: #0b2154;
+  text-transform: capitalize;
+}
