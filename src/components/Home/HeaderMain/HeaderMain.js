@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../../../images/testhero.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithubAlt, faLinkedinIn, faTwitter,faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faGithubAlt, faLinkedinIn, faTwitter} from '@fortawesome/free-brands-svg-icons';
 import './HeaderMain.css';
 
 const HeaderMain = () => {
@@ -14,8 +14,6 @@ const HeaderMain = () => {
                         <li><a href='https://github.com/khanfaysal'><FontAwesomeIcon icon={faGithubAlt}></FontAwesomeIcon></a></li>
                         <li><a href='https://www.linkedin.com/in/faysal-khan-47aa8710a/'><FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon></a></li>
                         <li><a href='https://twitter.com/mdfaysalkhancs1'><FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon></a></li>
-                        <li><a href='https://www.youtube.com/channel/UC8tpeYzbPaqKWDVqESCmxew'><FontAwesomeIcon icon={faYoutube}></FontAwesomeIcon></a></li>
-                        
                     </ul>
                     
                 </div>
