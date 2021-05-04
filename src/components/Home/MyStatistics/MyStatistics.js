@@ -4,7 +4,7 @@ import MyStatisticsDetails from '../MyStatisticsDetails/MyStatisticsDetails';
 const MyStatistics = () => {
     const statisticsData = [
        {
-        number: '3 +',
+        number: '1 +',
         title: 'Years Experience',
         
        },
@@ -14,8 +14,8 @@ const MyStatistics = () => {
 
        },
        {
-        number: '30 +',
-        title: 'Happy Customers',
+        number: '900 +',
+        title: 'Hours Coding',
 
        },
        {

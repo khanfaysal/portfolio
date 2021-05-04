@@ -1,6 +1,9 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
 import './Contact.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faGithubAlt,faLinkedinIn,faTwitter} from "@fortawesome/free-brands-svg-icons";
+import { faDownload,faPhoneAlt,faEnvelope,faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
 
@@ -17,8 +20,9 @@ const Contact = () => {
     return (
         <section className='get_in_touch'>
             <div className="container">
-            <h1 className='get_in_touch mt-5 page-heading'>get in touch</h1>
+            <h2 className='get_in_touch mt-5 page-heading'>get in touch</h2>
                 <div className="row contact-form">
+                    <div className="col-md-7 contact-form">
                     <form onSubmit={sendEmail} className='portfolio-form'>
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="floatingName" placeholder="Name" name="name"/>
@@ -40,6 +44,30 @@ const Contact = () => {
                             <button className="brand-btn text-capitalize" type="submit">Send Message</button>
                         </div>
                     </form>
+                    </div>
+                    <div className="col-md-5">
+                        <div className="contact-wrapper shadow p-3 mb-5 bg-body rounded">
+                           <div className="sideContactInner d-flex justify-content-around">
+                                <div><FontAwesomeIcon style={{size:"50px"}} color="#706fd3" className="icon-size"icon={faPhoneAlt}></FontAwesomeIcon></div>
+                                <div> <p>Phone</p></div>
+                                <div><h6>+8801679599705</h6></div>
+                           </div>
+                        </div>
+                        <div className="contact-wrapper shadow p-3 mb-5 bg-body rounded">
+                           <div className="sideContactInner d-flex justify-content-around">
+                                <div><FontAwesomeIcon style={{size:"50px"}} color="#706fd3" className="icon-size"icon={faEnvelope}></FontAwesomeIcon></div>
+                                <div> <p>Email</p></div>
+                                <div><h6>mdfaysalkhancse@gmail.com</h6></div>
+                           </div>
+                        </div>
+                        <div className="contact-wrapper shadow p-3 mb-5 bg-body rounded">
+                           <div className="sideContactInner d-flex justify-content-around">
+                                <div><FontAwesomeIcon style={{size:"50px"}} color="#706fd3" className="icon-size"icon={faMapMarkerAlt}></FontAwesomeIcon></div>
+                                <div> <p>Address</p></div>
+                                <div><h6>Lalbagh, Dhaka,Bangladesh </h6></div>
+                           </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

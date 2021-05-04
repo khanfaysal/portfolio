@@ -12,7 +12,7 @@ const Navbar = () => {
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent" >
-           <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+           <ul class="navbar-nav mb-2 mb-lg-0 mx-auto pt-3">
                 <li class="nav-item">
                     <Link class="nav-link ms-4" aria-current="page" to="/">Home</Link>
                 </li>

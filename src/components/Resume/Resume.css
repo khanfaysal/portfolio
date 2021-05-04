@@ -28,3 +28,9 @@ ul.timeline > li:before {
     height: 20px;
     z-index: 400;
 }
+.resume-link a{
+    text-decoration: none;
+    color:#706fd3;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}

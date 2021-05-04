@@ -12,10 +12,21 @@ code {
 }
 /* CUSTOM CSS CODE */
 *{
-  list-style-type: none;
   padding: 0;
   margin: 0;
+  outline:0;
   box-sizing: border-box;
+}
+html,
+body{
+  overflow-x: hidden;
+}
+a{
+  text-decoration: none;
+}
+ul,
+ol {
+    list-style-type: none;
 }
 .section{
   margin-top: 30px;
@@ -93,8 +104,23 @@ code {
   padding-left: 20px;
   padding-right: 20px;
 }
-
-
+.brand-btn{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    color: #0b2154;
+    border: 2px solid #706fd3;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    line-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 #typewritter-heading{
   font-family: 'Playfair Display', serif;
   font-size: 60px;
