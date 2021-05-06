@@ -97,7 +97,7 @@ const AboutMe = () => {
         </div>
         <div className="row">
           <div className="col-md-12">
-          <h2 className="text-capitalize sub-heading p-5">programming skills</h2>
+          <h2 className="text-capitalize sub-heading p-5">Technology skills</h2>
            <div className="wrap-skills d-flex flex-wrap justify-content-around align-content-stretch pb-5">
            <div><img className="img-fluid" src={react} alt=""/></div>
            <div><img className="img-fluid" src={js} alt=""/></div>

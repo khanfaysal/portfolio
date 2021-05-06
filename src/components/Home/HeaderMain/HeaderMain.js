@@ -38,7 +38,7 @@ const HeaderMain = () => {
           <Typewriter
         // 
         options={{
-            strings: ['React Developer', 'Js Expert'],
+            strings: ['React Developer', 'Js Developer'],
             autoStart: true,
             loop: true,
           }}
