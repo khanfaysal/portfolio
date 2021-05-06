@@ -2,16 +2,24 @@ import React from "react";
 
 const BlogsDetails = ({ blog }) => {
   return (
-    <div class="col">
+    <div>
       <div class="card shadow p-3 mb-5 bg-body rounded">
-        <img src={blog.image} class="card-img-top" alt="..."/>
+        <img src={blog.image} class="card-img-top" alt="..." />
         <div class="card-body">
           <h5 class="card-title">{blog.title}</h5>
           <p class="card-text">{blog.description}</p>
         </div>
         <div class="card-footer">
-            <small class="text-muted"><a href="https://medium.com/@mdfaysalkhancse" target="_blank" rel="noreferrer">Read more..</a></small>
-          </div>
+          <small class="text-muted">
+            <a
+              href="https://medium.com/@mdfaysalkhancse"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Read more..
+            </a>
+          </small>
+        </div>
       </div>
     </div>
   );
