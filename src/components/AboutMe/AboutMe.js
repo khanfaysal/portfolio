@@ -69,12 +69,12 @@ const AboutMe = () => {
                     <span className="value ">mdfaysalkhancse@gmail.com</span>
                   </li>
                   <li>
-                    <span className="title ">Country:</span>&nbsp;
-                    <span className="value ">Bangladesh</span>
+                    <span className="title ">Institute:</span>&nbsp;
+                    <span className="value ">National University of Bangladesh</span>
                   </li>
                   <li>
-                    <span className="title ">City:</span>&nbsp;
-                    <span className="value ">Dhaka</span>
+                    <span className="title ">Subject:</span>&nbsp;
+                    <span className="value ">Computer Science & Engineering</span>
                   </li>
                 </ul>
               </div>
