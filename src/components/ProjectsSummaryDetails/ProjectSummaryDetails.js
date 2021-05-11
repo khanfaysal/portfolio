@@ -16,8 +16,13 @@ const ProjectSummaryDetails = ({ proData }) => {
               </a>
             </div>
             <div className="code-btn">
-              <a href={proData.codeLink} className="card-btn" target="_blank" rel="noreferrer">
-                Code link
+              <a href={proData.clientLink} className="card-btn" target="_blank" rel="noreferrer">
+                Client Side
+              </a>
+            </div>
+            <div className="code-btn">
+              <a href={proData.serverLink} className="card-btn" target="_blank" rel="noreferrer">
+                Server Side
               </a>
             </div>
           </div>

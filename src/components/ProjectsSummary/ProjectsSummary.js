@@ -13,7 +13,8 @@ const ProjectsSummary = () => {
       description:
         "The user gets service, to give review also see specific order.Includes login system.This website controlled by an admin with a beautiful dashboard and any admin can make any other account admin.",
       liveLink: "https://car-repair-8145b.web.app/",
-      codeLink: "https://github.com/khanfaysal/car-repair-client",
+      clientLink: "https://github.com/khanfaysal/car-repair-client",
+      serverLink:"https://github.com/khanfaysal/car-repair-server"
     },
     {
       image: bookShop,
@@ -21,15 +22,16 @@ const ProjectsSummary = () => {
       description:
         "customer order books from home page and checkout. Admin manages books and adds books.Includes google login systems",
       liveLink: "https://book-shop-978b6.web.app/",
-      codeLink: "https://github.com/khanfaysal/book-region",
+      clientLink: "https://github.com/khanfaysal/book-region",
+      serverLink:"https://github.com/khanfaysal/book-region-server"
     },
     {
       image: rideService,
       title: "Grab Rides Website",
       description:
-        "Customer booking rides from different vehicles chosen if he/she already login.Can choose pick and destination point and also see google map (static).Besides customer to see the vehicle availability.",
+        "Customer booking rides from different vehicles chosen if he/she already login.Can choose pick and destination point and also see google map (iframe).Besides customer to see the vehicle availability.",
       liveLink: "https://react-auth-assignment-89f47.web.app/",
-      codeLink: "https://github.com/khanfaysal/grab-rides",
+      clientLink: "https://github.com/khanfaysal/grab-rides",
     },
   ];
   return (
