@@ -1,7 +1,9 @@
 import React from "react";
 import myImage from "../../images/me1.jpg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import { faDownload} from "@fortawesome/free-solid-svg-icons";
+import {faGithubAlt} from "@fortawesome/free-brands-svg-icons";
+
 import react from '../../images/react.png';
 import js from '../../images/js.png';
 import html from '../../images/html.png';
@@ -32,14 +34,14 @@ const AboutMe = () => {
               <h2 className="sub-heading mb-4">React & Js developer</h2>
               <p className="my-description">
                 Hello I'm{" "}
-                <span style={{ color: "#706fd3" }}>
+                <span style={{ color: "#F2911B" }}>
                   <b>Faysal khan</b>
                 </span>
                 . Junior React developer with over 1 year plus of experience.
                 Experienced with all stages of React development cycle for
                 functionality web projects. Having an in-depth knowledge
                 including advanced{" "}
-                <span style={{ color: "#706fd3" }}>
+                <span style={{ color: "#F2911B" }}>
                   <b>HTML5,CSS3,JavaScript,React,Bootstrap, Material UI</b>
                 </span>{" "}
                 . I try to give my best effort to solve any problem.
@@ -49,15 +51,15 @@ const AboutMe = () => {
               <div className="col-sm-6">
                 <ul className="about-list">
                   <li>
-                    <span className="title ">Name:</span>&nbsp;
+                    <span className="title ">Name:</span>&nbsp;&nbsp;
                     <span className="value ">Faysal khan</span>
                   </li>
                   <li>
-                    <span className="title ">age:</span>&nbsp;
+                    <span className="title ">age:</span>&nbsp;&nbsp;
                     <span className="value ">24 years</span>
                   </li>
                   <li>
-                    <span className="title ">phone:</span>&nbsp;
+                    <span className="title ">phone:</span>&nbsp;&nbsp;
                     <span className="value ">+8801679599705</span>
                   </li>
                 </ul>
@@ -65,15 +67,15 @@ const AboutMe = () => {
               <div className="col-sm-6">
                 <ul className="about-list">
                   <li>
-                    <span className="title ">Email:</span>&nbsp;
+                    <span className="title ">Email:</span>&nbsp;&nbsp;
                     <span className="value ">mdfaysalkhancse@gmail.com</span>
                   </li>
                   <li>
-                    <span className="title ">Institute:</span>&nbsp;
+                    <span className="title ">Institute:</span>&nbsp;&nbsp;
                     <span className="value ">National University of Bangladesh</span>
                   </li>
                   <li>
-                    <span className="title ">Subject:</span>&nbsp;
+                    <span className="title ">Subject:</span>&nbsp;&nbsp;
                     <span className="value ">Computer Science & Engineering</span>
                   </li>
                 </ul>
@@ -85,10 +87,17 @@ const AboutMe = () => {
                   {/* <Link className="brand-btn"  href="https://drive.google.com/file/d/1GTSV191YzbblG-2RtlyQ5kUFIeWeSCoG/view?usp=sharing">Download Resume</Link>  */}
                   <a
                     className="brand-btn"
-                    href="https://drive.google.com/file/d/1GTSV191YzbblG-2RtlyQ5kUFIeWeSCoG/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1SpEmyiPm7G844O3Hqt90wpN0X0q6WwkX/view?usp=sharing"
                   >
                     <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
                     &nbsp;&nbsp; Download Resume
+                  </a>&nbsp;&nbsp;
+                  <a
+                    className="brand-btn"
+                    href="https://github.com/khanfaysal"
+                  >
+                    <FontAwesomeIcon icon={faGithubAlt}></FontAwesomeIcon>
+                    &nbsp;&nbsp; GitHub
                   </a>
                 </div>
               </div>

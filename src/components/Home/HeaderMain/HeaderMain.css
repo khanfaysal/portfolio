@@ -9,17 +9,18 @@
     list-style-type: none;
 }
 .social-part ul li{
-    padding-top: 10px;
+    padding-top: 30px;
+    font-size: 20px;
     
 }
 .social-part ul li a{
-  color: #706fd3
+  color: #F2911B;
 }
 .social-part ul li a:hover{
-  color: #0b2154;
+  color: #0d6efd;
 }
 
-.my-logo {
+/* .my-logo {
     pointer-events: none;
 }
 @media (prefers-reduced-motion: no-preference) {
@@ -35,7 +36,7 @@
     to {
       transform: rotate(360deg);
     }
-  }
+  } */
 
   
 

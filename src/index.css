@@ -20,6 +20,8 @@ code {
 html,
 body{
   overflow-x: hidden;
+  background-color :#030e1b;
+  /* background-color :#1753bc; */
 }
 a{
   text-decoration: none;
@@ -35,7 +37,8 @@ ol {
   font-family: 'Playfair Display', serif;
   font-size: 60px;
   font-weight:700;
-  color: #0b2154;
+  /* color: #0b2154; */
+  color: #F2911B;
   text-transform: capitalize;
 }
 .page-heading{
@@ -44,22 +47,23 @@ ol {
   letter-spacing: 1px;
   text-transform: capitalize;
   font-family: 'Playfair Display', serif;
-  color: #706fd3;
+  color: #0d6efd;
   font-weight: 700;
   line-height: 100%;
   text-transform: capitalize;
 }
 
-.all-heading, .name-heading{
+ .name-heading{
   font-family: 'Playfair Display', serif;
   font-weight:600;
-  color: #0b2154;
+  color: #0d6efd;
   font-size: 30px;
 }
+/* .all-heading, */
 .sub-heading{
   font-family: 'Poppins', sans-serif;
   font-weight:700;
-  color:  #0b2154;
+  color:  #0d6efd;
   font-size: 30px;
   word-spacing: 5px;
   text-transform: capitalize;
@@ -70,23 +74,7 @@ ol {
   color: #5c5c6f;
   font-size: 13px;
 }
-.brand-btn{
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 600;
-    display: inline-block;
-    position: relative;
-    text-align: center;
-    color: #0b2154;
-    border: 2px solid #706fd3;
-    border-radius: 5px;
-    background-color: transparent;
-    cursor: pointer;
-    line-height: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
+
 .card-btn{
   text-transform: uppercase;
   text-decoration: none;
@@ -95,36 +83,39 @@ ol {
   display: inline-block;
   /* position: relative; */
   text-align: center;
-  color: #0b2154;
-  border: 2px solid #706fd3;
+  /* color: #0b2154; */
+  /* border: 2px solid #e67e22; */
   border-radius: 4px;
-  background-color: transparent;
+  background: #0b2154;
+  color:#F2911B;
   cursor: pointer;
-  line-height: 25px;
+  line-height: 35px;
   padding-left: 20px;
   padding-right: 20px;
 }
 .brand-btn{
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
     display: inline-block;
     position: relative;
     text-align: center;
-    color: #0b2154;
-    border: 2px solid #706fd3;
+    color: #F2911B;
+    /* color: #0b2154; */
+    /* border: 2px solid #F2911B; */
     border-radius: 5px;
-    background-color: transparent;
+    background: #0b2154;
     cursor: pointer;
     line-height: 40px;
     padding-left: 20px;
     padding-right: 20px;
+    border: none;
 }
-#typewritter-heading{
+/* #typewritter-heading{
   font-family: 'Playfair Display', serif;
   font-size: 60px;
   font-weight:700;
-  color: #0b2154;
+  color: #F2911B;
   text-transform: capitalize;
-}
+} */

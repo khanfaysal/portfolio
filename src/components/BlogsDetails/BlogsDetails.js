@@ -11,7 +11,7 @@ const BlogsDetails = ({ blog }) => {
         </div>
         <div class="card-footer">
           <small class="text-muted">
-            <a
+            <a style={{ color : "#F2911B", fontWeight:"bold"}}
               href="https://medium.com/@mdfaysalkhancse"
               target="_blank"
               rel="noreferrer"

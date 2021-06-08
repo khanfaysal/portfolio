@@ -47,7 +47,6 @@ const HeaderMain = () => {
           
         <a
           className="card-btn"
-          style={{ textDecoration: "none", color: "#0b2154" }}
           href="https://tinyurl.com/2z8r725c" target="_blank" rel="noreferrer"
         >
         <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>&nbsp;&nbsp;Download Resume

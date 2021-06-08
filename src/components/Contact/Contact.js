@@ -48,21 +48,21 @@ const Contact = () => {
                     <div className="col-md-5 pt-2">
                         <div className="contact-wrapper shadow p-3 mb-5 bg-body rounded">
                            <div className="sideContactInner d-flex justify-content-around">
-                                <div><FontAwesomeIcon style={{size:"45px"}} color="#706fd3" className="icon-size"icon={faPhoneAlt}></FontAwesomeIcon></div>
+                                <div><FontAwesomeIcon style={{size:"45px"}} color="#F2911B" className="icon-size"icon={faPhoneAlt}></FontAwesomeIcon></div>
                                 <div> <p>Phone-Number</p></div>
                                 <div><h6>+8801679599705</h6></div>
                            </div>
                         </div>
                         <div className="contact-wrapper shadow p-3 mb-5 bg-body rounded">
                            <div className="sideContactInner d-flex justify-content-around">
-                                <div><FontAwesomeIcon style={{size:"45px"}} color="#706fd3" className="icon-size"icon={faEnvelope}></FontAwesomeIcon></div>
+                                <div><FontAwesomeIcon style={{size:"45px"}} color="#F2911B" className="icon-size"icon={faEnvelope}></FontAwesomeIcon></div>
                                 <div> <p>Email</p></div>
                                 <div><h6>mdfaysalkhancse@gmail.com</h6></div>
                            </div>
                         </div>
                         <div className="contact-wrapper shadow p-3 mb-5 bg-body rounded">
                            <div className="sideContactInner d-flex justify-content-around">
-                                <div><FontAwesomeIcon style={{size:"45px"}} color="#706fd3" className="icon-size"icon={faMapMarkerAlt}></FontAwesomeIcon></div>
+                                <div><FontAwesomeIcon style={{size:"45px"}} color="#F2911B" className="icon-size"icon={faMapMarkerAlt}></FontAwesomeIcon></div>
                                 <div> <p>Address</p></div>
                                 <div><h6>Lalbagh, Dhaka,Bangladesh </h6></div>
                            </div>

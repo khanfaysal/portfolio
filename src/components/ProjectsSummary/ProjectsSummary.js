@@ -4,6 +4,7 @@ import "./ProjectSummary.css";
 import carService from "../../images/carService.png";
 import bookShop from "../../images/bookshop.png";
 import rideService from "../../images/rideService.png";
+import shopNyla from "../../images/Shop-Nyla.png";
 
 const ProjectsSummary = () => {
   const projectsData = [
@@ -20,7 +21,7 @@ const ProjectsSummary = () => {
       image: bookShop,
       title: "Book Region Website",
       description:
-        "customer order books from home page and checkout. Admin manages books and adds books.Includes google login systems",
+        "This website is one kind of book shopping website.Customer order books from home page and checkout. Admin manages books and adds books.Includes google login systems",
       liveLink: "https://book-shop-978b6.web.app/",
       clientLink: "https://github.com/khanfaysal/book-region",
       serverLink:"https://github.com/khanfaysal/book-region-server"
@@ -33,6 +34,15 @@ const ProjectsSummary = () => {
       liveLink: "https://react-auth-assignment-89f47.web.app/",
       clientLink: "https://github.com/khanfaysal/grab-rides",
     },
+    {
+      image: shopNyla ,
+      title: "Shop Nyla Website ( Team Project )",
+      description:
+        "Users can buy products after login into the applications.They can see beautiful UI design and also delete, increase/decrease product quantity while they are select to buy the products. Therefore when users select a product they can ensure which product is selected and also see the product's total price, shipping cost, vat, and total price.",
+      liveLink: "https://shop-nyla.web.app/",
+      clientLink: "https://github.com/mir-hussain/shop-nyla-client/branches",
+    }
+    
   ];
   return (
     <section className="section-projectSummary section">

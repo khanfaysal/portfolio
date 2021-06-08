@@ -12,21 +12,23 @@ const Resume = () => {
         <div class="col-md-6">
           <ul class="timeline">
             <li>
-              <h4 className="text-capitalize" style={{ color: "#706fd3" }}>
+              <h4 className="text-capitalize" style={{ color: "#F2911B" }}>
                 contact
               </h4>
-                <p>
-                    <FontAwesomeIcon icon={faGithubAlt}></FontAwesomeIcon> : <a href="https://github.com/khanfaysal">GitHub</a>
-                </p>
-                <p>
-                    <FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon> : <a href="https://github.com/khanfaysal">LinkedIn</a>
-                </p>
-                <p>
-                    <FontAwesomeIcon icon={faMobileAlt}></FontAwesomeIcon> : <h6 className="" style={{display:"inline"}}>+880167959970</h6>
-                </p>
+                <div className="fontawesome-icon">
+                  <p>
+                      <FontAwesomeIcon icon={faGithubAlt}></FontAwesomeIcon> : <a href="https://github.com/khanfaysal">GitHub</a>
+                  </p>
+                  <p>
+                      <FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon> : <a href="https://github.com/khanfaysal">LinkedIn</a>
+                  </p>
+                  <p>
+                      <FontAwesomeIcon icon={faMobileAlt}></FontAwesomeIcon> : <h6 className="" style={{display:"inline", color:"#0d6efd"}}>+880167959970</h6>
+                  </p>
+                </div>
             </li>
             <li>
-            <h4 className="text-capitalize" style={{ color: "#706fd3" }}>
+            <h4 className="text-capitalize" style={{ color: "#F2911B" }}>
                 programming skills
               </h4>
               <div>
@@ -36,7 +38,7 @@ const Resume = () => {
               </div>
             </li>
             <li>
-            <h4 className="text-capitalize" style={{ color: "#706fd3" }}>education & courses</h4>
+            <h4 className="text-capitalize" style={{ color: "#F2911B" }}>education & courses</h4>
               <div className="education">
                 National University of Bangladesh | computer science & engineering<br />
                 Programming hero | Full stack web development<br />
@@ -44,7 +46,7 @@ const Resume = () => {
               </div>
             </li>
             <li>
-            <h4 className="text-capitalize" style={{ color: "#706fd3" }}>Experience</h4>
+            <h4 className="text-capitalize" style={{ color: "#F2911B" }}>Experience</h4>
               <div className="education">
               Ahsanullah University of Science & Technology | An inter UnIversity Tech Competition
               </div>
@@ -55,10 +57,10 @@ const Resume = () => {
           <ul class="timeline">
             <li>
               <div className="project d-flex justify-content-between">
-                <div> <h4 className="text-capitalize" style={{ color: "#706fd3" }}>
+                <div> <h4 className="text-capitalize" style={{ color: "#F2911B" }}>
                 Car-repair Website
                 </h4></div>
-                <div><p><mark>March 2021</mark></p></div>
+                {/* <div><p><mark>March 2021</mark></p></div> */}
               </div>
               
               <p>
@@ -71,10 +73,10 @@ const Resume = () => {
             </li>
             <li>
               <div className="project d-flex justify-content-between">
-                <div> <h4 className="text-capitalize" style={{ color: "#706fd3" }}>
+                <div> <h4 className="text-capitalize" style={{ color: "#F2911B" }}>
                 Book-Shop Website
                 </h4></div>
-                <div><p><mark>April 2021</mark></p></div>
+                {/* <div><p><mark>April 2021</mark></p></div> */}
               </div>
               
               <p>
@@ -86,10 +88,10 @@ const Resume = () => {
             </li>
             <li>
               <div className="project d-flex justify-content-between">
-                <div> <h4 className="text-capitalize" style={{ color: "#706fd3" }}>
+                <div> <h4 className="text-capitalize" style={{ color: "#F2911B" }}>
                 Grab-Rides Website
                 </h4></div>
-                <div><p><mark>March 2021</mark></p></div>
+                {/* <div><p><mark>March 2021</mark></p></div> */}
               </div>
               
               <p>

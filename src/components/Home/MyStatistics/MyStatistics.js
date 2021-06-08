@@ -4,7 +4,7 @@ import MyStatisticsDetails from '../MyStatisticsDetails/MyStatisticsDetails';
 const MyStatistics = () => {
     const statisticsData = [
        {
-        number: '1',
+        number: '1.5',
         title: 'Years Experience',
         
        },
