@@ -20,6 +20,12 @@
   color: #0d6efd;
 }
 
+.main-div{
+  min-height: calc(100vh - 169px);
+  min-height: -webkit-calc(100vh - 169px);
+  min-height: -moz-calc(100vh - 169px);
+}
+
 /* .my-logo {
     pointer-events: none;
 }

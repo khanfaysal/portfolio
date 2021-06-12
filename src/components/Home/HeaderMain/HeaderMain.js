@@ -10,7 +10,7 @@ const HeaderMain = () => {
   return (
     <main
       className=" main-div row d-flex align-items-center"
-      style={{ height: "400px" }}
+      style={{ height: "350px" }}
     >
       <div className="social-part d-flex align-items-center pt-5">
         <ul>
@@ -47,7 +47,7 @@ const HeaderMain = () => {
           
         <a
           className="card-btn"
-          href="https://tinyurl.com/2z8r725c" target="_blank" rel="noreferrer"
+          href="https://drive.google.com/file/d/1uHGKZQ7qMjF2ewij26HRxzJ3XVTHs_5-/view?usp=sharing" target="_blank" rel="noreferrer"
         >
         <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>&nbsp;&nbsp;Download Resume
         </a>
