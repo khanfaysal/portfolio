@@ -5,8 +5,15 @@ import carService from "../../images/carService.png";
 import bookShop from "../../images/bookshop.png";
 import rideService from "../../images/rideService.png";
 import shopNyla from "../../images/Shop-Nyla.png";
+import pixel from "../../images/Pixel.png";
+import { useState } from "react";
 
 const ProjectsSummary = () => {
+  // const [projectsData, setProjectsData] = 
+  const [visible, setVisible] = useState(4);
+  const showMoreProjects = () => {
+    setVisible((prevValue) => prevValue + 4);
+  }
   const projectsData = [
     {
       image: carService,
@@ -41,6 +48,14 @@ const ProjectsSummary = () => {
         "Users can buy products after login into the applications.They can see beautiful UI design and also delete, increase/decrease product quantity while they are select to buy the products. Therefore when users select a product they can ensure which product is selected and also see the product's total price, shipping cost, vat, and total price.",
       liveLink: "https://shop-nyla.web.app/",
       clientLink: "https://github.com/mir-hussain/shop-nyla-client/branches",
+    },
+    {
+      image: pixel ,
+      title: "Pixel Website",
+      description:
+        "Pixel website is mainly focused on sharing photos, illustrations. Pixel images and videos may be used freely for commercial or non-commercial.",
+      liveLink: "https://tailwind-project-d9330.web.app/",
+      clientLink: "https://github.com/khanfaysal/tailwind-project",
     }
     
   ];
@@ -50,10 +65,12 @@ const ProjectsSummary = () => {
         <h2 className="page-heading data-show">Projects</h2>
         <div className="row">
           <div className="col-md-12 row row-cols-1 row-cols-md-2 g-4">
-            {projectsData.map((proData) => (
+            {projectsData.slice(0, visible).map((proData) => (
               <ProjectSummaryDetails proData={proData}></ProjectSummaryDetails>
             ))}
+            
           </div>
+          <button onClick={showMoreProjects} className="brand-btn">Load more</button>
         </div>
       </div>
     </section>
