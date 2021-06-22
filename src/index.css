@@ -10,7 +10,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-/* CUSTOM CSS CODE */
+/* custon css code */
 *{
   padding: 0;
   margin: 0;
@@ -102,8 +102,6 @@ ol {
     position: relative;
     text-align: center;
     color: #F2911B;
-    /* color: #0b2154; */
-    /* border: 2px solid #F2911B; */
     border-radius: 5px;
     background: #0b2154;
     cursor: pointer;
@@ -112,10 +110,3 @@ ol {
     padding-right: 20px;
     border: none;
 }
-/* #typewritter-heading{
-  font-family: 'Playfair Display', serif;
-  font-size: 60px;
-  font-weight:700;
-  color: #F2911B;
-  text-transform: capitalize;
-} */

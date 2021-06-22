@@ -10,7 +10,7 @@ const HeaderMain = () => {
   return (
     <main
       className=" main-div row d-flex align-items-center"
-      style={{ height: "350px" }}
+      // style={{ height: "350px" }}
     >
       <div className="social-part d-flex align-items-center pt-5">
         <ul>

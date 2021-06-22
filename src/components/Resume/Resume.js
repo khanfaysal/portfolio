@@ -69,7 +69,7 @@ const Resume = () => {
                 -Admin can delete service, add service, view all users order, change the order status and also make admin others.<br /> 
                 -React, React hook form, Bootstrap, Express, Firebase auth, MongoDB used in this application.
               </p>
-              <div className="resume-link"><a href="https://car-repair-8145b.web.app" target="_blank" rel="noreferrer">Live link</a> | <a href="https://github.com/khanfaysal/car-repair-client" target="_blank" rel="noreferrer">Client-Side Repo</a> | <a href="https://github.com/khanfaysal/car-repair-server" target="_blank" rel="noreferrer"> Server Side Repo</a></div>
+              <div className="resume-link"><a href="https://car-repair-8145b.web.app" target="_blank" rel="noreferrer"><u>Live link</u></a> | <a href="https://github.com/khanfaysal/car-repair-client" target="_blank" rel="noreferrer"><u>Client-Side Repo</u></a> | <a href="https://github.com/khanfaysal/car-repair-server" target="_blank" rel="noreferrer"> <u>Server Side Repo</u></a></div>
             </li>
             <li>
               <div className="project d-flex justify-content-between">
@@ -84,7 +84,7 @@ const Resume = () => {
                 -This application has an admin dashboard, admin can view all orders, add books and delete the specific product.<br />
                 -React, React hook form, Express js, Bootstrap,  Firebase auth, MongoDB, React-router.
               </p>
-              <div className="resume-link"><a href="https://book-shop-978b6.web.app" target="_blank" rel="noreferrer">Live link</a> | <a href="https://github.com/khanfaysal/book-region" target="_blank" rel="noreferrer">Client-Side Repo</a> | <a href="https://github.com/khanfaysal/book-region-server" target="_blank" rel="noreferrer"> Server Side Repo</a></div>
+              <div className="resume-link"><a href="https://book-shop-978b6.web.app" target="_blank" rel="noreferrer"><u>Live link</u></a> | <a href="https://github.com/khanfaysal/book-region" target="_blank" rel="noreferrer"><u>Client-Side Repo</u></a> | <a href="https://github.com/khanfaysal/book-region-server" target="_blank" rel="noreferrer"> <u>Server Side Repo</u></a></div>
             </li>
             <li>
               <div className="project d-flex justify-content-between">
@@ -101,7 +101,7 @@ const Resume = () => {
                 -React, Bootstrap, React Bootstrap, Firebase, React router used in grab rides application.
                 -This application used fake/custom data.
               </p>
-              <div className="resume-link"><a href="https://react-auth-assignment-89f47.web.app" target="_blank" rel="noreferrer">Live link</a> | <a href="https://github.com/khanfaysal/grab-rides" target="_blank" rel="noreferrer">Client-Side Repo</a> | <a href="https://github.com/khanfaysal/car-repair-server" target="_blank" rel="noreferrer"> Server Side Repo</a></div>
+              <div className="resume-link"><a href="https://react-auth-assignment-89f47.web.app" target="_blank" rel="noreferrer"><u>Live link</u></a> | <a href="https://github.com/khanfaysal/grab-rides" target="_blank" rel="noreferrer"><u>Client-Side Repo</u></a> | <a href="https://github.com/khanfaysal/car-repair-server" target="_blank" rel="noreferrer"> <u>Server Side Repo</u></a></div>
             </li>
           </ul>
         </div>
