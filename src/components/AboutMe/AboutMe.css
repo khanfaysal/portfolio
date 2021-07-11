@@ -21,3 +21,13 @@
     color: #fff;
     font-weight: 400; 
 }
+.image-card{
+    width: 300px;
+    margin: auto;
+    border: 5px solid gray;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+

@@ -21,13 +21,14 @@ const AboutMe = () => {
           <h2 className="text-uppercase">about me</h2>
         </div>
         <div className="row">
-          <div className="col-md-5">
-            <img
-              src={myImage}
-              style={{ borderColor: "#706fd3" }}
-              alt=""
-              className="img-fluid img-thumbnail shadow p-3 mb-5 bg-body rounded"
-            />
+          <div className="col-md-5 image-card">
+            <div className="image">
+              <img
+                src={myImage}
+                alt=""
+                className="img-fluid img-thumbnail mw-100 p-0 m-0 w-100 h-100 bg-body rounded"
+              />
+            </div>
           </div>
           <div className="col-md-7">
             <div className="about-info">
@@ -37,7 +38,7 @@ const AboutMe = () => {
                 <span style={{ color: "#F2911B" }}>
                   <b>Faysal khan</b>
                 </span>
-                . Junior React developer with over 1 year plus of experience.
+                . Junior React developer with over one year experience.
                 Experienced with all stages of React development cycle for
                 functionality web projects. Having an in-depth knowledge
                 including advanced{" "}
