@@ -47,7 +47,7 @@ const HeaderMain = () => {
           
         <a
           className="card-btn"
-          href="https://drive.google.com/file/d/14zBDYwEl1gD_rV0fzwm2ChCogMOv_9uw/view?usp=sharing" target="_blank" rel="noreferrer"
+          href="https://drive.google.com/file/d/1fabwGta9cs53w0l06IjiYj3uxHzykN0R/view?usp=sharing" target="_blank" rel="noreferrer"
         >
         <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>&nbsp;&nbsp;Download Resume
         </a>
