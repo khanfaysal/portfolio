@@ -23,8 +23,13 @@ code {
 html,
 body {
     overflow-x: hidden;
-    background-color: #030e1b;
-    /* background-color :#1753bc; */
+    background: #ffd89b;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #19547b, #ffd89b);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #19547b, #ffd89b);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 a {
@@ -44,8 +49,7 @@ ol {
     font-family: 'Playfair Display', serif;
     font-size: 60px;
     font-weight: 700;
-    /* color: #0b2154; */
-    color: #F2911B;
+    color: #e2be91;
     text-transform: capitalize;
 }
 
@@ -55,7 +59,7 @@ ol {
     letter-spacing: 1px;
     text-transform: capitalize;
     font-family: 'Playfair Display', serif;
-    color: #0d6efd;
+    color: #e2be91;
     font-weight: 700;
     line-height: 100%;
     text-transform: capitalize;
@@ -64,7 +68,7 @@ ol {
 .name-heading {
     font-family: 'Playfair Display', serif;
     font-weight: 600;
-    color: #0d6efd;
+    color: #e2be91;
     font-size: 30px;
 }
 
@@ -72,7 +76,7 @@ ol {
 .sub-heading {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    color: #0d6efd;
+    color: #e2be91;
     font-size: 30px;
     word-spacing: 5px;
     text-transform: capitalize;
@@ -91,13 +95,10 @@ ol {
     font-size: 14px;
     font-weight: 600;
     display: inline-block;
-    /* position: relative; */
     text-align: center;
-    /* color: #0b2154; */
-    /* border: 2px solid #e67e22; */
     border-radius: 4px;
-    background: #0b2154;
-    color: #F2911B;
+    background: #19547b;
+    color: #e2be91;
     cursor: pointer;
     line-height: 35px;
     padding-left: 20px;
@@ -112,9 +113,9 @@ ol {
     display: inline-block;
     position: relative;
     text-align: center;
-    color: #F2911B;
+    color: #e2be91;
     border-radius: 5px;
-    background: #0b2154;
+    background: #19547b;
     cursor: pointer;
     line-height: 40px;
     padding-left: 20px;

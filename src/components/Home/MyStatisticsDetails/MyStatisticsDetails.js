@@ -3,18 +3,20 @@ import CountUp from 'react-countup';
 import './MyStatisticsDetails';
 
 const MyStatisticsDetails = (props) => {
-    const {number,title} = props.data;
+    const { number, title } = props.data;
     return (
-            <div className="statistics col-md-3 d-flex justify-content-center align-items-center mt-3">
-                <div className="number "><h4><span style={{color:'#F2911B',fontWeight:'bold'}}>
+        <div className="statistics col-md-3 d-flex justify-content-center align-items-center mt-3">
+            <div className="number "><h4><span style={{ color: '#e2be91', fontWeight: 'bold' }}>
                 <CountUp
                     start={1}
-                    end={number} 
+                    end={number}
                     duration={12}
-                 />
-                    </span></h4></div>&nbsp;&nbsp;&nbsp;
-               <div className="title"> <p><span style={{color:'#0d6efd'}}>{title}</span></p></div>
+                />
+            </span></h4></div>&nbsp;&nbsp;&nbsp;
+            <div>
+                <p style={{ color: '#fff', marginTop: "1rem" }}>{title}</p>
             </div>
+        </div>
     );
 };
 
