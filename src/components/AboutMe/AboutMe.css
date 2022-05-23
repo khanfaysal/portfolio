@@ -32,7 +32,6 @@
 
 @media(max-width: 575.98px) {
     .about-list li .title {
-
         color: #000;
     }
 }
@@ -53,3 +52,28 @@
     padding: 5px;
     border-radius: 10px;
 }
+
+.wrap-skills {
+
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.wrap-skills>div {
+    margin: 6px;
+}
+
+@media(max-width: 575.98px) {
+    .wrap-skills {
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+
+
+    }
+}
+
+/* d-flex flex-wrap justify-content-around align-content-stretch pb-5 */

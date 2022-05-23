@@ -36,16 +36,11 @@ const AboutMe = () => {
                             <p className="my-description">
                                 Hello I'm{" "}
                                 <span>
-                                    <b>Faysal khan</b>
+                                    <b>Faysal khan.</b>
                                 </span>
-                                . Junior React developer with over one year experience.
-                                Experienced with all stages of React development cycle for
-                                functionality web projects. Having an in-depth knowledge
-                                including advanced{" "}
-                                <span>
-                                    <b>HTML5,CSS3,JavaScript,React,Bootstrap, Material UI</b>
-                                </span>{" "}
-                                . I try to give my best effort to solve any problem.
+                                <p>I am a professional web developer. I have done B.Sc Engineering in CSE. I have extensive knowledge of  <span><b>Javascript, React js, SCSS, Redux</b> </span>{" "}, Next js, Gatsby js, and HTML5 and CSS3. I have been working as a junior software engineer for the past over a year and I have developed a strong understanding of the necessary skills and abilities.</p>
+                                <p>In my professional life I have emphasized the importance of scalable and well documented code. I have the ability to design and develop high-quality codes. Through working collaboratively with marketing and product teams, I have developed strong communication and teamwork skills.</p>
+                                {" "}
                             </p>
                         </div>
                         <div className="row pt-3">
@@ -106,9 +101,9 @@ const AboutMe = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-12">
+                    <div className="col-md-12 mt-3 mb-5">
                         <h2 className="text-capitalize sub-heading p-5">Technology skills</h2>
-                        <div className="wrap-skills d-flex flex-wrap justify-content-around align-content-stretch pb-5">
+                        <div className="wrap-skills">
                             <div><img className="img-fluid" src={react} alt="" /></div>
                             <div><img className="img-fluid" src={js} alt="" /></div>
                             <div><img className="img-fluid" src={css} alt="" /></div>

@@ -15,17 +15,17 @@ const HeaderMain = () => {
             <div className="social-part d-flex align-items-center pt-5">
                 <ul>
                     <li>
-                        <a href="https://github.com/khanfaysal">
+                        <a target="_blank" rel="noreferrer" href="https://github.com/khanfaysal">
                             <FontAwesomeIcon icon={faGithubAlt}></FontAwesomeIcon>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/faysal-khan-47aa8710a/">
+                        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/faysal-khan-47aa8710a/">
                             <FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon>
                         </a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/mdfaysalkhancs1">
+                        <a target="_blank" rel="noreferrer" href="https://twitter.com/mdfaysalkhancs1">
                             <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
                         </a>
                     </li>
