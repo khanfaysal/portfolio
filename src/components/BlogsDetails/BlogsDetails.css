@@ -1,0 +1,13 @@
+.card-footer small {
+    color: #19547b;
+    font-weight: 700;
+}
+
+.card-title {
+    color: #000;
+    font-weight: 700;
+}
+
+.card-text {
+    color: rgb(110, 96, 96);
+}
