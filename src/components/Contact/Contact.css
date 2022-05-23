@@ -1,26 +1,39 @@
+.portfolio-form input {
+    border: none;
+    border-bottom: 2px solid #F2911B;
+    border-radius: 0;
+}
 
-.portfolio-form input{
-    border:none;
+.portfolio-form textarea {
+    border: none;
     border-bottom: 2px solid #F2911B;
     border-radius: 0;
 }
-.portfolio-form textarea{
-    border:none;
+
+.portfolio-form input:focus {
+    border: none;
+    outline: none;
     border-bottom: 2px solid #F2911B;
     border-radius: 0;
 }
-.portfolio-form input:focus{
-    border:none;
-    outline:none;
-    border-bottom: 2px solid #F2911B;
-    border-radius: 0;
-}
-.side-contact{
+
+.side-contact {
     box-sizing: border-box;
     width: 450px;
-    height:100px;
+    height: 100px;
     border: 3px solid #F2911B;
 }
-.icon-size{
-    font-size: 40px;
+
+.icon {
+    font-size: 25px;
+    color: #F2911B;
+
+}
+
+.contact-wrapper {
+    margin-bottom: 3.3rem;
+}
+
+.get_in_touch {
+    margin: 2rem 0 2rem 0;
 }
