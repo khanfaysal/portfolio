@@ -105,6 +105,10 @@ ol {
     padding-right: 20px;
 }
 
+/* .card-btn a :hover {
+    color: #fff;
+} */
+
 .brand-btn {
     text-transform: capitalize;
     text-decoration: none;
@@ -121,4 +125,8 @@ ol {
     padding-left: 20px;
     padding-right: 20px;
     border: none;
+}
+
+a:hover {
+    color: #fff;
 }

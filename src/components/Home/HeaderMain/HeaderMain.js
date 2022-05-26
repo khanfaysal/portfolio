@@ -46,11 +46,13 @@ const HeaderMain = () => {
                     />
                 </h1>
 
-                <a
-                    className="card-btn"
-                    href="https://drive.google.com/file/d/1fabwGta9cs53w0l06IjiYj3uxHzykN0R/view?usp=sharing" target="_blank" rel="noreferrer"
+                <a target="_blank"
+                    rel="noreferrer"
+                    className="brand-btn"
+                    href="https://drive.google.com/file/d/1SpEmyiPm7G844O3Hqt90wpN0X0q6WwkX/view?usp=sharing"
                 >
-                    <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>&nbsp;&nbsp;Download Resume
+                    <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
+                    &nbsp;&nbsp; Download Resume
                 </a>
             </div>
         </main>

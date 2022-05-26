@@ -80,8 +80,9 @@ const AboutMe = () => {
                         <div className="row pt-3">
                             <div className="col-md-12">
                                 <div className="button-div">
-                                    {/* <Link className="brand-btn"  href="https://drive.google.com/file/d/1GTSV191YzbblG-2RtlyQ5kUFIeWeSCoG/view?usp=sharing">Download Resume</Link>  */}
-                                    <a
+
+                                    <a target="_blank"
+                                        rel="noreferrer"
                                         className="brand-btn"
                                         href="https://drive.google.com/file/d/1SpEmyiPm7G844O3Hqt90wpN0X0q6WwkX/view?usp=sharing"
                                     >
