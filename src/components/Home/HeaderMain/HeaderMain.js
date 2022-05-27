@@ -49,7 +49,7 @@ const HeaderMain = () => {
                 <a target="_blank"
                     rel="noreferrer"
                     className="brand-btn"
-                    href="https://drive.google.com/file/d/1SpEmyiPm7G844O3Hqt90wpN0X0q6WwkX/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1fwQOlC8yQLfozn5rtNcZzvoLqBCLjiwC/view?usp=sharing"
                 >
                     <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
                     &nbsp;&nbsp; Download Resume

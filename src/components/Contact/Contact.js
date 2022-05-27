@@ -1,21 +1,67 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
 import './Contact.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithubAlt, faLinkedinIn, faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faDownload, faPhoneAlt, faEnvelope, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+import { faPhoneAlt, faEnvelope, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
+
+    const [data, setData] = useState({
+        name: '',
+        email: '',
+        subject: '',
+        message: ''
+    });
 
     function sendEmail(e) {
         e.preventDefault();
 
         emailjs.sendForm('service_bu9oqhx', 'template_lwh1wca', e.target, 'user_Y2VvIximudWt5Y32mZnuf')
             .then((result) => {
-                console.log(result.text);
+                alert("Email send successfully");
+                setData({
+                    name: '',
+                    email: '',
+                    subject: '',
+                    message: ''
+                })
             }, (error) => {
-                console.log(error.text);
+                setData({
+                    name: '',
+                    email: '',
+                    subject: '',
+                    message: ''
+                })
             });
+    }
+    console.log("data check", data);
+
+    const handleBlur = (e) => {
+        if (e.target.name === 'name') {
+            setData(prev => {
+                return {
+                    ...prev, name: e.target.value
+                }
+            });
+        } else if (e.target.name === 'email') {
+            setData(prev => {
+                return {
+                    ...prev, email: e.target.value
+                }
+            });
+        } else if (e.target.name === 'subject') {
+            setData(prev => {
+                return {
+                    ...prev, subject: e.target.value
+                }
+            });
+        } else {
+            setData(prev => {
+                return {
+                    ...prev, message: e.target.value
+                }
+            });
+        }
     }
     return (
         <section className='Contact__container'>
@@ -25,19 +71,19 @@ const Contact = () => {
                     <div className="col-md-7 contact-form">
                         <form onSubmit={sendEmail} className='portfolio-form'>
                             <div class="form-floating mb-3">
-                                <input type="text" class="form-control" id="floatingName" placeholder="Name" name="name" />
+                                <input onChange={handleBlur} value={data.name} type="text" class="form-control" id="floatingName" placeholder="Name" name="name" />
                                 <label for="floatingName">Name</label>
                             </div>
                             <div class="form-floating mb-3">
-                                <input type="text" class="form-control" id="floatingName" placeholder="Name" name="subject" />
+                                <input onChange={handleBlur} value={data.subject} type="text" class="form-control" id="floatingName" placeholder="Name" name="subject" />
                                 <label for="floatingName">subject</label>
                             </div>
                             <div class="form-floating mb-3">
-                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="email" />
+                                <input onChange={handleBlur} value={data.email} type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="email" />
                                 <label for="floatingInput">Email</label>
                             </div>
                             <div class="form-floating mb-3">
-                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style={{ height: "100px" }} name="message"></textarea>
+                                <textarea onChange={handleBlur} value={data.message} class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style={{ height: "100px" }} name="message"></textarea>
                                 <label for="floatingTextarea2">Message</label>
                             </div>
                             <div>
