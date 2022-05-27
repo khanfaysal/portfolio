@@ -34,9 +34,9 @@ const Contact = () => {
                 })
             });
     }
-    console.log("data check", data);
 
-    const handleBlur = (e) => {
+
+    const handleOnChange = (e) => {
         if (e.target.name === 'name') {
             setData(prev => {
                 return {
@@ -71,19 +71,19 @@ const Contact = () => {
                     <div className="col-md-7 contact-form">
                         <form onSubmit={sendEmail} className='portfolio-form'>
                             <div class="form-floating mb-3">
-                                <input onChange={handleBlur} value={data.name} type="text" class="form-control" id="floatingName" placeholder="Name" name="name" />
+                                <input onChange={handleOnChange} value={data.name} type="text" class="form-control" id="floatingName" placeholder="Name" name="name" />
                                 <label for="floatingName">Name</label>
                             </div>
                             <div class="form-floating mb-3">
-                                <input onChange={handleBlur} value={data.subject} type="text" class="form-control" id="floatingName" placeholder="Name" name="subject" />
+                                <input onChange={handleOnChange} value={data.subject} type="text" class="form-control" id="floatingName" placeholder="Name" name="subject" />
                                 <label for="floatingName">subject</label>
                             </div>
                             <div class="form-floating mb-3">
-                                <input onChange={handleBlur} value={data.email} type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="email" />
+                                <input onChange={handleOnChange} value={data.email} type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="email" />
                                 <label for="floatingInput">Email</label>
                             </div>
                             <div class="form-floating mb-3">
-                                <textarea onChange={handleBlur} value={data.message} class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style={{ height: "100px" }} name="message"></textarea>
+                                <textarea onChange={handleOnChange} value={data.message} class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style={{ height: "100px" }} name="message"></textarea>
                                 <label for="floatingTextarea2">Message</label>
                             </div>
                             <div>
