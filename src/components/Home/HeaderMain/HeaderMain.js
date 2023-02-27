@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../../images/testhero.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faGithubAlt,faLinkedinIn,faTwitter} from "@fortawesome/free-brands-svg-icons";
+import { faGithubAlt, faLinkedinIn, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import Typewriter from "typewriter-effect";
 import "./HeaderMain.css";
@@ -10,7 +10,7 @@ const HeaderMain = () => {
   return (
     <main
       className=" main-div row d-flex align-items-center"
-      // style={{ height: "350px" }}
+    // style={{ height: "350px" }}
     >
       <div className="social-part d-flex align-items-center pt-5">
         <ul>
@@ -34,22 +34,22 @@ const HeaderMain = () => {
       <div className="col-md-12 text-center pt-5">
         <img src={logo} alt="" className="my-logo img-fluid rounded-circle" />
         <h3 className="name-heading pt-3">FAYSAL KHAN</h3>
-          <h1 className="banner-heading pb-2">{''}
+        <h1 className="banner-heading pb-2">{''}
           <Typewriter
-        // 
-        options={{
-            strings: ['React Developer', 'Js Developer'],
-            autoStart: true,
-            loop: true,
-          }}
-      /> 
-          </h1>
-          
+            // 
+            options={{
+              strings: ['React Developer', 'Js Developer'],
+              autoStart: true,
+              loop: true,
+            }}
+          />
+        </h1>
+
         <a
           className="card-btn"
-          href="https://drive.google.com/file/d/1fabwGta9cs53w0l06IjiYj3uxHzykN0R/view?usp=sharing" target="_blank" rel="noreferrer"
+          href="https://drive.google.com/file/d/1TYoVlHJyYofoJk_ZIE9ULfhxRVDf_p-q/view?usp=sharing" target="_blank" rel="noreferrer"
         >
-        <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>&nbsp;&nbsp;Download Resume
+          <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>&nbsp;&nbsp;Download Resume
         </a>
       </div>
     </main>
