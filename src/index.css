@@ -1,99 +1,115 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
 }
+
 /* custon css code */
-*{
-  padding: 0;
-  margin: 0;
-  outline:0;
-  box-sizing: border-box;
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
 }
+
 html,
-body{
-  overflow-x: hidden;
-  background-color :#030e1b;
-  /* background-color :#1753bc; */
+body {
+    overflow-x: hidden;
+    background: #ffd89b;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #19547b, #ffd89b);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #19547b, #ffd89b);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
-a{
-  text-decoration: none;
+
+a {
+    text-decoration: none;
 }
+
 ul,
 ol {
     list-style-type: none;
 }
-.section{
-  margin-top: 30px;
-}
-.banner-heading{
-  font-family: 'Playfair Display', serif;
-  font-size: 60px;
-  font-weight:700;
-  /* color: #0b2154; */
-  color: #F2911B;
-  text-transform: capitalize;
-}
-.page-heading{
-  position: relative;
-  font-size: 35px;
-  letter-spacing: 1px;
-  text-transform: capitalize;
-  font-family: 'Playfair Display', serif;
-  color: #0d6efd;
-  font-weight: 700;
-  line-height: 100%;
-  text-transform: capitalize;
+
+.section {
+    margin-top: 30px;
 }
 
- .name-heading{
-  font-family: 'Playfair Display', serif;
-  font-weight:600;
-  color: #0d6efd;
-  font-size: 30px;
+.banner-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: #e2be91;
+    text-transform: capitalize;
 }
+
+.page-heading {
+    position: relative;
+    font-size: 35px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+    color: #e2be91;
+    font-weight: 700;
+    line-height: 100%;
+    text-transform: capitalize;
+}
+
+.name-heading {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    color: #e2be91;
+    font-size: 30px;
+}
+
 /* .all-heading, */
-.sub-heading{
-  font-family: 'Poppins', sans-serif;
-  font-weight:700;
-  color:  #0d6efd;
-  font-size: 30px;
-  word-spacing: 5px;
-  text-transform: capitalize;
-}
-.paragraph-text{
-  font-family: 'Poppins', sans-serif;
-  font-weight:400;
-  color: #5c5c6f;
-  font-size: 13px;
+.sub-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #e2be91;
+    font-size: 30px;
+    word-spacing: 5px;
+    text-transform: capitalize;
 }
 
-.card-btn{
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 600;
-  display: inline-block;
-  /* position: relative; */
-  text-align: center;
-  /* color: #0b2154; */
-  /* border: 2px solid #e67e22; */
-  border-radius: 4px;
-  background: #0b2154;
-  color:#F2911B;
-  cursor: pointer;
-  line-height: 35px;
-  padding-left: 20px;
-  padding-right: 20px;
+.paragraph-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #5c5c6f;
+    font-size: 13px;
 }
-.brand-btn{
+
+.card-btn {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    text-align: center;
+    border-radius: 4px;
+    background: #19547b;
+    color: #e2be91;
+    cursor: pointer;
+    line-height: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* .card-btn a :hover {
+    color: #fff;
+} */
+
+.brand-btn {
     text-transform: capitalize;
     text-decoration: none;
     font-size: 16px;
@@ -101,12 +117,16 @@ ol {
     display: inline-block;
     position: relative;
     text-align: center;
-    color: #F2911B;
+    color: #e2be91;
     border-radius: 5px;
-    background: #0b2154;
+    background: #19547b;
     cursor: pointer;
     line-height: 40px;
     padding-left: 20px;
     padding-right: 20px;
     border: none;
+}
+
+a:hover {
+    color: #fff;
 }

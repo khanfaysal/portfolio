@@ -7,6 +7,7 @@ import Typewriter from "typewriter-effect";
 import "./HeaderMain.css";
 
 const HeaderMain = () => {
+
   return (
     <main
       className=" main-div row d-flex align-items-center"
@@ -54,6 +55,7 @@ const HeaderMain = () => {
       </div>
     </main>
   );
+
 };
 
 export default HeaderMain;
