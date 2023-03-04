@@ -84,24 +84,23 @@ const Resume = () => {
                                 -After random color users pick any color in hex value and used their projects easily.<br />
                                 -JavaScript, HTML5, CSS3.
                             </p>
-                            <div className="resume-link"><a href="https://book-shop-978b6.web.app" target="_blank" rel="noreferrer"><u>Live link</u></a> | <a href="https://github.com/khanfaysal/book-region" target="_blank" rel="noreferrer"><u>Client-Side Repo</u></a> | <a href="https://github.com/khanfaysal/book-region-server" target="_blank" rel="noreferrer"> <u>Server Side Repo</u></a></div>
+
+                            <div className="resume-link"><a href="https://zingy-manatee-7646ba.netlify.app/" target="_blank" rel="noreferrer"><u>Live link</u></a> | <a href="https://github.com/khanfaysal/color-generate" target="_blank" rel="noreferrer"><u>Client-Side Repo</u></a> </div>
                         </li>
                         <li>
                             <div className="project d-flex justify-content-between">
                                 <div> <h4 className="text-capitalize" style={{ color: "#e2be91" }}>
-                                    Grab-Rides Website
+                                    Pixel website
                                 </h4></div>
                                 {/* <div><p><mark>March 2021</mark></p></div> */}
                             </div>
 
                             <p>
-                                -Users get ride service facility after login their unique identity.<br />
-                                -Choose different vehicles, can choose to pick and destination points, and also see google map.<br />
-                                -Besides users can see the available vehicles in this application.<br />
-                                -React, Bootstrap, React Bootstrap, Firebase, React router used in grab rides application.
-                                -This application used fake/custom data.
+                                -Users get different types of image by search option.<br />
+                                -Users also show different data statistics through API<br />
+
                             </p>
-                            <div className="resume-link"><a href="https://react-auth-assignment-89f47.web.app" target="_blank" rel="noreferrer"><u>Live link</u></a> | <a href="https://github.com/khanfaysal/grab-rides" target="_blank" rel="noreferrer"><u>Client-Side Repo</u></a> | <a href="https://github.com/khanfaysal/car-repair-server" target="_blank" rel="noreferrer"> <u>Server Side Repo</u></a></div>
+                            <div className="resume-link"><a href="https://tailwind-project-d9330.web.app/" target="_blank" rel="noreferrer"><u>Live link</u></a> | <a href="https://github.com/khanfaysal/tailwind-project" target="_blank" rel="noreferrer"><u>Client-Side Repo</u></a> </div>
                         </li>
                     </ul>
                 </div>
