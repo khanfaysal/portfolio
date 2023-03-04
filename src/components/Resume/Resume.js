@@ -74,15 +74,15 @@ const Resume = () => {
                         <li>
                             <div className="project d-flex justify-content-between">
                                 <div> <h4 className="text-capitalize" style={{ color: "#e2be91" }}>
-                                    Book-Shop Website
+                                    Color generate website
                                 </h4></div>
                                 {/* <div><p><mark>April 2021</mark></p></div> */}
                             </div>
 
                             <p>
-                                -Users can order the book if he/she already login otherwise not.<br />
-                                -This application has an admin dashboard, admin can view all orders, add books and delete the specific product.<br />
-                                -React, React hook form, Express js, Bootstrap,  Firebase auth, MongoDB, React-router.
+                                -Users can generate random color.<br />
+                                -After random color users pick any color in hex value and used their projects easily.<br />
+                                -JavaScript, HTML5, CSS3.
                             </p>
                             <div className="resume-link"><a href="https://book-shop-978b6.web.app" target="_blank" rel="noreferrer"><u>Live link</u></a> | <a href="https://github.com/khanfaysal/book-region" target="_blank" rel="noreferrer"><u>Client-Side Repo</u></a> | <a href="https://github.com/khanfaysal/book-region-server" target="_blank" rel="noreferrer"> <u>Server Side Repo</u></a></div>
                         </li>
