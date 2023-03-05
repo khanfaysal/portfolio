@@ -110,7 +110,7 @@ const Contact = () => {
                             <div className="sideContactInner d-flex justify-content-around">
                                 <div><FontAwesomeIcon className="icon" icon={faMapMarkerAlt}></FontAwesomeIcon></div>
                                 <div> <p>Address</p></div>
-                                <div><h6>Mirpur, Dhaka,Bangladesh </h6></div>
+                                <div><h6>Shyamoli, Dhaka,Bangladesh </h6></div>
                             </div>
                         </div>
                     </div>

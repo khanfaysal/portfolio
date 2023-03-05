@@ -38,7 +38,7 @@ const AboutMe = () => {
                                     <b>Faysal khan.</b>
                                 </span>
                                 <p>I am a professional web developer. I have done B.Sc Engineering in CSE. I have extensive knowledge of  <span><b>Javascript, React js, SCSS, Redux</b> </span>{" "}, Next js, Gatsby js, and HTML5 and CSS3. I have been working as a junior software engineer for the past over a year and I have developed a strong understanding of the necessary skills and abilities.</p>
-                                <p>In my professional life I have emphasized the importance of scalable and well documented code.Through working collaboratively with marketing and product teams, I have developed strong communication and teamwork skills.</p>
+                                <p>In my professional life I have emphasized the importance of scalable and well documented code.Through working collaboratively with marketing and product teams, I have developed strong communication and teamwork skills. I am also experienced in <a href="https://faysal-portfolio-c70c10.webflow.io/" target="_blank"><span><b><u>Webflow technology.</u></b></span></a></p>
                                 {" "}
                             </p>
                         </div>
@@ -50,8 +50,8 @@ const AboutMe = () => {
                                         <span className="value ">Faysal khan</span>
                                     </li>
                                     <li>
-                                        <span className="title ">age:</span>&nbsp;&nbsp;
-                                        <span className="value ">24 years</span>
+                                        <span className="title ">Email:</span>&nbsp;&nbsp;
+                                        <span className="value ">mdfaysalkhancse@gmail.com</span>
                                     </li>
                                     <li>
                                         <span className="title ">phone:</span>&nbsp;&nbsp;
@@ -61,10 +61,6 @@ const AboutMe = () => {
                             </div>
                             <div className="col-sm-6">
                                 <ul className="about-list">
-                                    <li>
-                                        <span className="title ">Email:</span>&nbsp;&nbsp;
-                                        <span className="value ">mdfaysalkhancse@gmail.com</span>
-                                    </li>
                                     <li>
                                         <span className="title ">Institute:</span>&nbsp;&nbsp;
                                         <span className="value ">National University of Bangladesh</span>
