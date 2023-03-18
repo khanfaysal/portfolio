@@ -19,7 +19,7 @@ const ProjectsSummary = () => {
       title: "Imajine",
       description:
         "This project done by openAI API with dall-e model. Dall-e model can translate description to image. User write their own description and get desire image. And showcase their generate image also download.",
-      liveLink: "https://6415c2f597a24a5d1aec13a9--courageous-arithmetic-fb1f4f.netlify.app/",
+      liveLink: "https://courageous-arithmetic-fb1f4f.netlify.app/",
       clientLink: "https://github.com/khanfaysal/ai-image-generation/tree/main/client",
       serverLink: "https://github.com/khanfaysal/ai-image-generation/tree/main/server",
       tags: "reactjs,express js,openAI API,tailwind,mongoDB, mongoose"
