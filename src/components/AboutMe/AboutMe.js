@@ -33,12 +33,10 @@ const AboutMe = () => {
                     <div className="col-md-7">
                         <div className="about-info">
                             <p className="my-description">
-                                Hello I'm{" "}
-                                <span>
-                                    <b>Faysal khan.</b>
-                                </span>
-                                <p>I am a professional web developer. I have done B.Sc Engineering in CSE. I have extensive knowledge of  <span><b>Javascript, React js, SCSS, Redux</b> </span>{" "}, Next js, Gatsby js, and HTML5 and CSS3. I have been working as a junior software engineer for the past over a year and I have developed a strong understanding of the necessary skills and abilities.</p>
+
+                                <p>I'm Faysal khan a professional web developer. I have done B.Sc Engineering in CSE. I have extensive knowledge of  <span><b>Javascript, React js, SCSS, Redux</b> </span>{" "}, Next js, Gatsby js, and HTML5 and CSS3. I have been working as a junior software engineer for the past over a year and I have developed a strong understanding of the necessary skills and abilities.</p>
                                 <p>In my professional life I have emphasized the importance of scalable and well documented code.Through working collaboratively with marketing and product teams, I have developed strong communication and teamwork skills. I am also experienced in <a href="https://faysal-portfolio-c70c10.webflow.io/" target="_blank"><span><b><u>Webflow technology.</u></b></span></a></p>
+                                <p>Here are a few technologies I’ve been working with recently: </p>
                                 {" "}
                             </p>
                         </div>
@@ -46,33 +44,33 @@ const AboutMe = () => {
                             <div className="col-sm-6">
                                 <ul className="about-list">
                                     <li>
-                                        <span className="title ">Name:</span>&nbsp;&nbsp;
-                                        <span className="value ">Faysal khan</span>
+                                        <span className="title">- Javascript (Es6)</span>&nbsp;&nbsp;
+                                        {/* <span className="value ">Faysal khan</span> */}
                                     </li>
                                     <li>
-                                        <span className="title ">Email:</span>&nbsp;&nbsp;
-                                        <span className="value ">mdfaysalkhancse@gmail.com</span>
+                                        <span className="title">- Reactjs</span>&nbsp;&nbsp;
+                                        {/* <span className="value ">mdfaysalkhancse@gmail.com</span> */}
                                     </li>
                                     <li>
-                                        <span className="title ">phone:</span>&nbsp;&nbsp;
-                                        <span className="value ">+8801679599705</span>
+                                        <span className="title">- Nodejs</span>&nbsp;&nbsp;
+                                        {/* <span className="value ">+8801679599705</span> */}
                                     </li>
                                 </ul>
                             </div>
                             <div className="col-sm-6">
                                 <ul className="about-list">
                                     <li>
-                                        <span className="title ">Institute:</span>&nbsp;&nbsp;
-                                        <span className="value ">National University of Bangladesh</span>
+                                        <span className="title">- openAI API</span>&nbsp;&nbsp;
+                                        {/* <span className="value ">National University of Bangladesh</span> */}
                                     </li>
                                     <li>
-                                        <span className="title ">Subject:</span>&nbsp;&nbsp;
-                                        <span className="value ">Computer Science & Engineering</span>
+                                        <span className="title">- Nextjs</span>&nbsp;&nbsp;
+                                        {/* <span className="value ">Computer Science & Engineering</span> */}
                                     </li>
                                 </ul>
                             </div>
                         </div>
-                        <div className="row pt-3">
+                        {/* <div className="row pt-3">
                             <div className="col-md-12">
                                 <div className="button-div">
 
@@ -93,7 +91,7 @@ const AboutMe = () => {
                                     </a>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className="row">
