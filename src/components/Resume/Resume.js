@@ -58,18 +58,18 @@ const Resume = () => {
                         <li>
                             <div className="project d-flex justify-content-between">
                                 <div> <h4 className="text-capitalize" style={{ color: "#e2be91" }}>
-                                    Car-repair Website
+                                    Imajine Website
                                 </h4></div>
                                 {/* <div><p><mark>March 2021</mark></p></div> */}
                             </div>
 
                             <p>
-                                -Users get service after login into the application and get a beautiful dashboard.<br />
-                                -Users to see their specific order service,  give a review by the dashboard, and also see order place status by admin.<br />
-                                -Admin can delete service, add service, view all users order, change the order status and also make admin others.<br />
-                                -React, React hook form, Bootstrap, Express, Firebase auth, MongoDB used in this application.
+                                -Users generate text to image by dall-e model and openAI technology<br />
+                                -They can share images showcase community page<br />
+                                -Also download which is generate ai image<br />
+                                -React, Tailwind, Express, Dall-e API, MongoDB, Mongoose used in this application.
                             </p>
-                            <div className="resume-link"><a href="https://car-repair-8145b.web.app" target="_blank" rel="noreferrer"><u>Live link</u></a> | <a href="https://github.com/khanfaysal/car-repair-client" target="_blank" rel="noreferrer"><u>Client-Side Repo</u></a> | <a href="https://github.com/khanfaysal/car-repair-server" target="_blank" rel="noreferrer"> <u>Server Side Repo</u></a></div>
+                            <div className="resume-link"><a href="https://courageous-arithmetic-fb1f4f.netlify.app/" target="_blank" rel="noreferrer"><u>Live link</u></a> | <a href="https://github.com/khanfaysal/ai-image-generation/tree/main/client" target="_blank" rel="noreferrer"><u>Client-Side Repo</u></a> | <a href="https://github.com/khanfaysal/ai-image-generation/tree/main/server" target="_blank" rel="noreferrer"> <u>Server Side Repo</u></a></div>
                         </li>
                         <li>
                             <div className="project d-flex justify-content-between">
