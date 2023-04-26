@@ -1,18 +1,13 @@
-import React from "react";
+import { useState } from "react";
 import ProjectSummaryDetails from "../ProjectsSummaryDetails/ProjectSummaryDetails";
-import "./ProjectSummary.css";
 import aiImage from "../../images/aiImage.png";
 import colorGenerate from "../../images/Color-Generate.png";
 import shopNyla from "../../images/Shop-Nyla.png";
 import pixel from "../../images/Pixel.png";
-import { useState } from "react";
+import todo from "../../images/react-todo-dnd.png";
 
 const ProjectsSummary = () => {
-  // const [projectsData, setProjectsData] = 
-  const [visible, setVisible] = useState(4);
-  const showMoreProjects = () => {
-    setVisible((prevValue) => prevValue + 4);
-  }
+
   const projectsData = [
     {
       image: aiImage,
@@ -52,20 +47,37 @@ const ProjectsSummary = () => {
       clientLink: "https://github.com/mir-hussain/shop-nyla-client/branches",
       tags: "redux,reactjs,react-router,firebase-auth,emailjs"
     },
+    {
+      image: todo,
+      title: "Todo",
+      description:
+        "The React drag and drop todo project is a simple web application that allows users to create, track and organize their tasks using a drag and drop interface.The project is built using React, and utilizes the React DnD (Drag and Drop) library to create the drag and drop functionality. It also uses the React Toastify library for displaying notifications.",
+      liveLink: "https://main--fascinating-daifuku-1fe9ba.netlify.app/",
+      clientLink: "github.com/khanfaysal/todo-dnd",
+      tags: "reactjs,react-dnd,toastify"
+    },
 
   ];
+
+  const [showAll, setShowAll] = useState(false);
+  const numToShow = showAll ? projectsData.length : 4;
+
   return (
+
     <section className="section-projectSummary section">
       <div className="container">
         <h2 className="page-heading data-show">Projects</h2>
         <div className="row">
           <div className="row row-cols-1 row-cols-md-2 g-4">
-            {projectsData.slice(0, visible).map((proData) => (
-              <ProjectSummaryDetails proData={proData}></ProjectSummaryDetails>
+            {projectsData.slice(0, numToShow).map((proData) => (
+              <ProjectSummaryDetails key={proData.title} proData={proData} />
             ))}
-
           </div>
-          {/* <button onClick={showMoreProjects} className="brand-btn">Load more</button> */}
+          {projectsData.length > 4 && (
+            <button className="brand-btn" onClick={() => setShowAll(!showAll)}>
+              {showAll ? 'Show Less' : 'Show More'}
+            </button>
+          )}
         </div>
       </div>
     </section>
