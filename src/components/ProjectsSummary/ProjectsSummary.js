@@ -47,15 +47,15 @@ const ProjectsSummary = () => {
       clientLink: "https://github.com/mir-hussain/shop-nyla-client/branches",
       tags: "redux,reactjs,react-router,firebase-auth,emailjs"
     },
-    {
-      image: todo,
-      title: "Todo",
-      description:
-        "The React drag and drop todo project is a simple web application that allows users to create, track and organize their tasks using a drag and drop interface.The project is built using React, and utilizes the React DnD (Drag and Drop) library to create the drag and drop functionality. It also uses the React Toastify library for displaying notifications.",
-      liveLink: "https://main--fascinating-daifuku-1fe9ba.netlify.app/",
-      clientLink: "github.com/khanfaysal/todo-dnd",
-      tags: "reactjs,react-dnd,toastify"
-    },
+    // {
+    //   image: todo,
+    //   title: "Todo",
+    //   description:
+    //     "The React drag and drop todo project is a simple web application that allows users to create, track and organize their tasks using a drag and drop interface.The project is built using React, and utilizes the React DnD (Drag and Drop) library to create the drag and drop functionality. It also uses the React Toastify library for displaying notifications.",
+    //   liveLink: "https://main--fascinating-daifuku-1fe9ba.netlify.app/",
+    //   clientLink: "github.com/khanfaysal/todo-dnd",
+    //   tags: "reactjs,react-dnd,toastify"
+    // },
 
   ];
 
