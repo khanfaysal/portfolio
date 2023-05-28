@@ -12,7 +12,7 @@
 }
 
 .social-part ul li {
-    padding-top: 30px;
+    padding-top: 10px;
     font-size: 20px;
 
 }
@@ -22,7 +22,7 @@
 }
 
 .social-part ul li a:hover {
-    color: #87acc5;
+    color: #e9af67;
 }
 
 .main-div {

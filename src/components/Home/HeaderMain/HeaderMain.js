@@ -4,9 +4,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithubAlt,
   faLinkedinIn,
+  faMedium,
+  faMediumM,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import { faDownload, faFile } from "@fortawesome/free-solid-svg-icons";
 import Typewriter from "typewriter-effect";
 import "./HeaderMain.css";
 
@@ -28,18 +30,23 @@ const HeaderMain = () => {
         <div className='social-part'>
           <ul>
             <li>
-              <a href='https://github.com/khanfaysal'>
+              <a href='https://github.com/khanfaysal' target='_blank'>
                 <FontAwesomeIcon icon={faGithubAlt}></FontAwesomeIcon>
               </a>
             </li>
             <li>
-              <a href='https://www.linkedin.com/in/faysal-khan-47aa8710a/'>
+              <a href='https://www.linkedin.com/in/faysal-khan-47aa8710a/' target='_blank'>
                 <FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon>
               </a>
             </li>
             <li>
-              <a href='https://twitter.com/mdfaysalkhancs1'>
-                <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+              <a href='https://medium.com/@devfaysalkhan' target='_blank'>
+                <FontAwesomeIcon icon={faMediumM}></FontAwesomeIcon>
+              </a>
+            </li>
+            <li>
+              <a href='https://drive.google.com/file/d/1TYoVlHJyYofoJk_ZIE9ULfhxRVDf_p-q/view?usp=sharing' target='_blank'>
+                <FontAwesomeIcon icon={faFile}></FontAwesomeIcon>
               </a>
             </li>
           </ul>
