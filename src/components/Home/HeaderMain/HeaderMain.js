@@ -16,7 +16,7 @@ const HeaderMain = () => {
   return (
     <main className='main-div row'>
       <div className='col-md-4 d-flex justify-content-center align-items-center'>
-        <img src={logo} alt='' className='my-logo img-fluid' />
+        <img src={logo} alt='logo' className='my-logo img-fluid' />
       </div>
 
       <div className='col-md-6 d-flex flex-column align-items-center justify-content-center'>
