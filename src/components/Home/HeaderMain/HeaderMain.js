@@ -15,7 +15,7 @@ import "./HeaderMain.css";
 const HeaderMain = () => {
   return (
     <main className='main-div row'>
-      <div className='col-md-4 d-flex justify-content-center align-items-end'>
+      <div className='col-md-4 d-flex justify-content-center align-items-center'>
         <img src={logo} alt='' className='my-logo img-fluid' />
       </div>
 
