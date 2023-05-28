@@ -23,14 +23,32 @@ code {
 html,
 body {
     overflow-x: hidden;
-    background: #ffd89b;
+    background: #7a7061;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #19547b, #ffd89b);
+    /* background: -webkit-linear-gradient(to right, #082335, #7a7061); */
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #19547b, #ffd89b);
+    /* background: linear-gradient(to right, #082335, #7a7061); */
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
+	height: 100vh;
+
 }
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 
 a {
     text-decoration: none;
