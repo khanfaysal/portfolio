@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <>
             <HeaderMain></HeaderMain>
-            <MyStatistics></MyStatistics>
+            {/* <MyStatistics></MyStatistics> */}
         </>
     );
 };

@@ -29,6 +29,9 @@
     min-height: -webkit-calc(100vh - 169px);
     min-height: -moz-calc(100vh - 169px);
 }
+/* .name-designation-wrap {
+    text-align: left;
+} */
 
 @media (max-width: 575.98px) {
     .main-div {
@@ -55,8 +58,8 @@
         font-weight: 700;
         color: #e2be91;
         text-transform: capitalize;
+       
     }
-
 }
 
 

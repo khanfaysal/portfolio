@@ -12,27 +12,18 @@ const Navbar = () => {
           <span class="navbar-toggler-icon hamburger-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent" >
-           <ul class="navbar-nav mb-2 mb-lg-0 mx-auto pt-4">
-                <li class="nav-item">
-                    <Link class="nav-link ms-4" aria-current="page" to="/">Home</Link>
-                </li>
-                <li class="nav-item">
-                    <Link class="nav-link ms-4" to="/projects">Projects</Link>
-                </li>
-                <li class="nav-item">
-                    <Link class="nav-link ms-4" to="/about-me">About Me</Link>
-                </li>
-                <li class="nav-item">
-                    <Link class="nav-link ms-4" to="/resume">Resume</Link>
-                </li>
-                <li class="nav-item">
-                    <Link class="nav-link ms-4" to="/blogs">Blogs</Link>
-                </li>
-                <li class="nav-item">
-                    <Link class="nav-link ms-4" to="/contact">Contact</Link>
-                </li>
-           </ul>
-         </div>
+          <ul class="navbar-nav mb-2 mb-lg-0 mx-auto pt-4">
+            <li class="nav-item">
+              <Link class="nav-link ms-4" aria-current="page" to="/">Home</Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link ms-4" to="/projects">Projects</Link>
+            </li>
+            <li class="nav-item">
+              <Link class="nav-link ms-4" to="/blogs">Blogs</Link>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   );
