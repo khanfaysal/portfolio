@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../../images/logo-line-big.svg";
+import logo from "../../../images/logo-test.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithubAlt,

@@ -40,7 +40,7 @@ const ProjectsSummary = () => {
     },
     {
       image: shopNyla,
-      title: "Shop Nyla (Small Team Project)",
+      title: "Shop Nyla (Team Project)",
       description:
         "Users can buy products after login into the applications.Delete, increase/decrease product quantity option exists. Users select a product they can ensure which product is selected and also see the product's total price, shipping cost, vat, and total price.",
       liveLink: "https://shop-nyla.web.app/",

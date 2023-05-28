@@ -30,9 +30,9 @@
     min-height: -webkit-calc(100vh - 169px);
     min-height: -moz-calc(100vh - 169px);
 }
-/* .name-designation-wrap {
-    text-align: left;
-} */
+.my-logo {
+    padding-left: 5px;
+}
 
 @media (max-width: 768px) {
     .main-div {

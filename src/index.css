@@ -1,18 +1,5 @@
-body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-        sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-        monospace;
-}
-
-/* custon css code */
+/* custom css code */
 * {
     padding: 0;
     margin: 0;
@@ -22,21 +9,22 @@ code {
 
 html,
 body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
-    background: #7a7061;
+    /* background: #7a7061; */
     /* fallback for old browsers */
-    /* background: -webkit-linear-gradient(to right, #082335, #7a7061); */
+    background: -webkit-linear-gradient(-45deg, #000000, #333333, #555555);
     /* Chrome 10-25, Safari 5.1-6 */
-    /* background: linear-gradient(to right, #082335, #7a7061); */
+    background: linear-gradient(45deg, #000000, #333333, #555555);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
-	animation: gradient 7s ease infinite;
+	animation: gradient 10s ease infinite;
 	height: 100vh;
 
 }
+
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -64,9 +52,9 @@ ol {
 }
 
 .banner-heading {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cinzel', serif;
     font-size: 60px;
-    font-weight: 700;
+    font-weight: 900;
     color: #e2be91;
     text-transform: capitalize;
 }
@@ -76,7 +64,7 @@ ol {
     font-size: 35px;
     letter-spacing: 1px;
     text-transform: capitalize;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cinzel', serif;
     color: #e2be91;
     font-weight: 700;
     line-height: 100%;
@@ -84,7 +72,7 @@ ol {
 }
 
 .name-heading {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cinzel', serif;
     font-weight: 600;
     color: #e2be91;
     font-size: 30px;
