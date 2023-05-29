@@ -18,20 +18,18 @@
 }
 
 .social-part ul li a {
-    color: #e2be91;
+    color: #EFF7FB;
 }
 
 .social-part ul li a:hover {
-    color: #e9af67;
+    color: #b2f0d3;
 }
+
 
 .main-div {
     min-height: calc(100vh - 169px);
     min-height: -webkit-calc(100vh - 169px);
     min-height: -moz-calc(100vh - 169px);
-}
-.my-logo {
-    padding-left: 20px;
 }
 
 @media (max-width: 768px) {
@@ -47,18 +45,22 @@
     }
 
     .name-heading {
-        font-family: 'Playfair Display', serif;
+        font-family: "Cinzel", serif;
+        color: #fff;
         font-weight: 600;
         font-size: 30px;
         padding-top: 1rem;
     }
 
     .banner-heading {
-        font-family: 'Playfair Display', serif;
-        font-size: 50px;
-        font-weight: 700;
-        color: #e2be91;
+        font-family: "Cinzel", serif;
+        font-size: 45px;
+        font-weight: 900;
+        color: #b2f0d3;
         text-transform: capitalize;
+    }
+    .name-banner {
+        padding-left: 15px;
     }
 }
 @media (max-width: 575.98px) {
@@ -68,24 +70,51 @@
         min-height: -moz-calc(100vh - 200px);
     }
 
-    .social-part ul li {
-        padding-top: 20px;
-        font-size: 15px;
+    .social-part {
+        width: 100%;
+        position: relative;
+        padding-right: 1rem;
+        display: flex;
+        justify-content: center;
     }
 
+    .social-part ul {
+        display: flex;
+    }
+
+    .social-part ul li {
+        
+        padding-top: 20px;
+        font-size: 20px;
+    }
+    .social-part ul li {
+        padding-right: 20px;
+      }
+
     .name-heading {
-        font-family: 'Playfair Display', serif;
+        font-family: "Cinzel", serif;
+        color: #fff;
         font-weight: 600;
         font-size: 20px;
-        padding-top: 1rem;
+        
     }
 
     .banner-heading {
-        font-family: 'Playfair Display', serif;
-        font-size: 35px;
+        font-family: "Cinzel", serif;
+        font-size: 40px;
         font-weight: 700;
-        color: #e2be91;
+        color: #b2f0d3;
         text-transform: capitalize;
+    }
+   
+    .name-banner {
+        padding-left: 25px;
+    }
+    .name-banner h1 {
+        text-align: center;
+    }
+    .name-banner h3{
+        text-align: center;
     }
     .my-logo {
         display: none;
