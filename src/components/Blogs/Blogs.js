@@ -20,7 +20,7 @@ const Blogs = () => {
 
         {
             image: BlogImage4,
-            title: 'javaScript interview question, you should know',
+            title: 'JavaScript interview question, you should know',
             // description: 'Every junior programmer has a dream to get a job. So he/she should take to prepare for an interview. The most common interview questions about the JavaScript programming language are given below.',
             url: "https://mdfaysalkhancse.medium.com/javascript-interview-question-you-should-know-69165b69208a"
         },

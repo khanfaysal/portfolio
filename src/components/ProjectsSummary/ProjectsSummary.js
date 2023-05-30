@@ -74,7 +74,7 @@ const ProjectsSummary = () => {
             ))}
           </div>
           {projectsData.length > 4 && (
-            <button className="brand-btn" onClick={() => setShowAll(!showAll)}>
+            <button className="brand-btn mt-5" onClick={() => setShowAll(!showAll)}>
               {showAll ? 'Show Less' : 'Show More'}
             </button>
           )}

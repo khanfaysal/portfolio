@@ -3,10 +3,16 @@
 }
 
 .show-more-btn {
-    margin-bottom: 0.5rem;
+    /* margin-top: 1rem; */
+}
+.projects-text{
+    color: #fff;
+}
+.projects-tag {
+    color: #b2f0d3;
 }
 
-/* Medium devices (tablets, 768px and up) */
+
 @media (max-width: 767.98px) {
     .card-btn {
         font-size: 10px;
@@ -15,7 +21,7 @@
         text-align: center;
         border-radius: 4px;
         background: #b2f0d3;
-        color: #fff;
+        color: #000;
         cursor: pointer;
         line-height: 30px;
         padding-left: 15px;

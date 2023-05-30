@@ -1,13 +1,42 @@
-.card-footer small {
-    color: #19547b;
-    font-weight: 700;
-}
+
 
 .card-title {
-    color: #000;
+    color: #bef0d3;
     font-weight: 700;
 }
 
-.card-text {
+/* .card-text {
     color: rgb(110, 96, 96);
-}
+} */
+
+
+.card {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .glassmorphism {
+    background: rgba(190, 240, 211, 0.1);
+    backdrop-filter: blur(10px);
+  }
+  
+  .card-img-top {
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .card-body {
+    color: #000;
+  }
+  
+  .card-footer {
+    /* background: rgba(190, 240, 211, 0.1); */
+    backdrop-filter: blur(10px);
+    padding: 5px;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .card-footer small {
+    color: #fff;
+  }
+  
