@@ -10,7 +10,7 @@ const ProjectSummaryDetails = (props) => {
       <div className="card glassmorphism">
         <img src={image} className="card-img-top" alt="..." />
         <div className="card-body">
-          <div className="mt-3">
+          <div className="card-tag-wrapper">
             {technologySplit.map((tag) => (
               <span key={props.proData.title} className="badge rounded-pill bg-gray shadow-sm projects-tag m-2">
                 {tag}

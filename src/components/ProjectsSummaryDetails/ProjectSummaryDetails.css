@@ -11,6 +11,9 @@
 .projects-tag {
     color: #b2f0d3;
 }
+.card-tag-wrapper {
+    margin-top:18px
+}
 
 
 @media (max-width: 767.98px) {
@@ -27,6 +30,7 @@
         padding-left: 15px;
         padding-right: 15px;
     }
+   
 }
 
 @media (min-width: 767.98px) {
@@ -34,4 +38,5 @@
         flex-wrap: wrap;
         gap: 10px;
     }
+    
 }

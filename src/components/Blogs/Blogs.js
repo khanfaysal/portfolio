@@ -66,7 +66,7 @@ const Blogs = () => {
             <div className="container section">
                 <h1 className='get_in_touch mt-5 page-heading'>Blogs</h1>
                 <div className="row">
-                    <div className="row row-cols-1 row-cols-md-3 g-4">
+                    <div className="row row-cols-lg-3 row-cols-md-2 g-4">
                         {
                             blogsData.map(blog => <BlogsDetails blog={blog}></BlogsDetails>)
                         }
