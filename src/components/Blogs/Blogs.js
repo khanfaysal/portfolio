@@ -7,6 +7,7 @@ import BlogImage5 from '../../images/fundametalReact.png';
 import BlogImage6 from '../../images/style-guide-developer-react.webp';
 import BlogImage7 from '../../images/typescript-interview.webp';
 import BlogImage8 from '../../images/mongodb-query-interview.webp';
+import BlogImage9 from '../../images/eslint-logo.png';
 import BlogsDetails from '../BlogsDetails/BlogsDetails';
 
 const Blogs = () => {
@@ -59,6 +60,12 @@ const Blogs = () => {
             title: 'TypeScript and MongoDB query interview question with answer.',
             // description: 'An array is a collection of elements or items. An array can be a collection of elements of any type like string, boolean, number, objects even other arrays. But unfortunately, the javascript data structure is a little bit different.',
             url: "https://medium.com/@devfaysalkhan/typescript-with-mongodb-interview-question-124dabb8c114"
+        },
+        {
+            image: BlogImage9,
+            title: 'ESLint : Short introduction to developer.',
+            // description: 'An array is a collection of elements or items. An array can be a collection of elements of any type like string, boolean, number, objects even other arrays. But unfortunately, the javascript data structure is a little bit different.',
+            url: "https://medium.com/@devfaysalkhan/eslint-short-introduction-to-developer-6e8a8680895"
         }
     ]
     return (
