@@ -14,15 +14,11 @@ const HeaderMain = () => {
   return (
     <main className='main-div row'>
 
-      <div className='name-banner-wrap col-md-10 d-flex flex-column align-items-center justify-content-center'>
-        <div className='name-banner'>
+      <div className='name-banner-wrap col-md-12 d-flex flex-column align-items-center justify-content-center'>
+        <div className='content-banner'>
           <h1 className='banner-heading pt-3'>FAYSAL KHAN</h1>
           <h3 className='name-heading pb-2'>Web Developer</h3>
-        </div>
-      </div>
-
-      <div className='col-md-2 d-flex justify-content-end align-items-center'>
-        <div className='social-part'>
+          <div className='social-part'>
           <ul>
             <li>
               <a href='https://github.com/khanfaysal' target='_blank' rel="noreferrer">
@@ -45,6 +41,7 @@ const HeaderMain = () => {
               </a>
             </li>
           </ul>
+          </div>
         </div>
       </div>
     </main>
