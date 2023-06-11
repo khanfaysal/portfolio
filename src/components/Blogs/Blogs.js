@@ -16,7 +16,7 @@ const Blogs = () => {
             image: BlogImage6,
             title: 'Importance of use style guide as a developer !',
             // description: 'React is a JavaScript library and created by Facebook. So we learn this with no confusion. Today I will discuss primary or fundamental things about React library. I think you are aware of javaScript. So let,s go.',
-            url: "https://mdfaysalkhancse.medium.com/introduce-to-react-library-9f58d6715793"
+            url: "https://mdfaysalkhancse.medium.com/importance-of-use-style-guide-as-a-developer-394597476a41"
         },
 
         {
@@ -41,7 +41,7 @@ const Blogs = () => {
             image: BlogImage5,
             title: 'Fundamental of React library',
             // description: 'As a javascript developer I think you should maintain consistency style guide into your codebase. For example, you can have a look at the JavaScript style guides at #Google and #airbnb , or the style guide for the #jQuery source code. I think it should share on my perspectives. So let,s go.',
-            url: "https://mdfaysalkhancse.medium.com/importance-of-use-style-guide-as-a-developer-394597476a41"
+            url: "https://mdfaysalkhancse.medium.com/introduce-to-react-library-9f58d6715793"
         },
         {
             image: BlogImage3,
