@@ -34,6 +34,13 @@
     min-height: -webkit-calc(100vh - 169px);
     min-height: -moz-calc(100vh - 169px);
 }
+.name-heading {
+    text-align: center;
+}
+.social-part{
+    display: flex;
+    justify-content: center;
+}
 
 @media (max-width: 768px) {
     .main-div {
