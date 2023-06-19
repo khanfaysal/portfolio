@@ -5,20 +5,11 @@ import colorGenerate from "../../images/Color-Generate.png";
 import shopNyla from "../../images/Shop-Nyla.png";
 import pixel from "../../images/Pixel.png";
 import todo from "../../images/react-todo-dnd.png";
+import CowHutAPI from "../../images/backend-cow-api.png";
 
 const ProjectsSummary = () => {
 
   const projectsData = [
-    {
-      image: aiImage,
-      title: "Imajine",
-      description:
-        "This project done by openAI API with dall-e model. Dall-e model can translate description to image. User write their own description and get desire image. And showcase their generate image also download.",
-      liveLink: "https://courageous-arithmetic-fb1f4f.netlify.app/",
-      clientLink: "https://github.com/khanfaysal/ai-image-generation/tree/main/client",
-      serverLink: "https://github.com/khanfaysal/ai-image-generation/tree/main/server",
-      tags: "reactjs,express js,openAI API,tailwind,mongoDB, mongoose"
-    },
 
     {
       image: colorGenerate,
@@ -38,14 +29,25 @@ const ProjectsSummary = () => {
       clientLink: "https://github.com/khanfaysal/tailwind-project",
       tags: "tailwind css,reactjs,react-router,firebase-auth"
     },
+    
     {
       image: shopNyla,
-      title: "Shop Nyla (Team Project)",
+      title: "Shop Nyla (Bootcamp team project)",
       description:
         "Users can buy products after login into the applications.Delete, increase/decrease product quantity option exists. Users select a product they can ensure which product is selected and also see the product's total price, shipping cost, vat, and total price.",
       liveLink: "https://shop-nyla.web.app/",
       clientLink: "https://github.com/mir-hussain/shop-nyla-client/branches",
       tags: "redux,reactjs,react-router,firebase-auth,emailjs"
+    },
+    {
+      image: aiImage,
+      title: "Imajine",
+      description:
+        "This project done by openAI API with dall-e model. Dall-e model can translate description to image. User write their own description and get desire image. And showcase their generate image also download.",
+      liveLink: "https://courageous-arithmetic-fb1f4f.netlify.app/",
+      clientLink: "https://github.com/khanfaysal/ai-image-generation/tree/main/client",
+      serverLink: "https://github.com/khanfaysal/ai-image-generation/tree/main/server",
+      tags: "reactjs,express js,openAI API,tailwind,mongoDB, mongoose"
     },
     {
       image: todo,
@@ -56,6 +58,16 @@ const ProjectsSummary = () => {
       clientLink: "github.com/khanfaysal/todo-dnd",
       tags: "reactjs,react-dnd,toastify,localstorage"
     },
+    {
+      image: CowHutAPI,
+      title: "CowHutAPI",
+      description:
+        "Streamlined cow operations with buyer and seller involvement. Efficiently manage individual cows, including creation, update, and deletion. Seller ID references facilitate seamless transactions and ownership tracking.",
+      liveLink: "https://digital-cow-hut-backend-flame.vercel.app/api/v1/cows",
+      serverLink: "",
+      tags: "typescript,express js,zod,mongoose"
+    },
+    
 
   ];
 
