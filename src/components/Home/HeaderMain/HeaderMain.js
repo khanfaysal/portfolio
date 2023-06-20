@@ -2,6 +2,8 @@ import React from "react";
 import logo from "../../../images/logo-test.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
+  faFacebook,
+  faFacebookF,
   faGithubAlt,
   faLinkedinIn,
   faMediumM,
@@ -33,6 +35,11 @@ const HeaderMain = () => {
             <li>
               <a href='https://medium.com/@devfaysalkhan' target='_blank' rel="noreferrer">
                 <FontAwesomeIcon icon={faMediumM}></FontAwesomeIcon>
+              </a>
+            </li>
+            <li>
+              <a href='https://www.facebook.com/groups/147131708264515/' target='_blank' rel="noreferrer">
+                <FontAwesomeIcon icon={faFacebookF}></FontAwesomeIcon>
               </a>
             </li>
             <li>
