@@ -6,6 +6,7 @@ import shopNyla from "../../images/Shop-Nyla.png";
 import pixel from "../../images/Pixel.png";
 import todo from "../../images/react-todo-dnd.png";
 import CowHutAPI from "../../images/backend-cow-api.png";
+import BookHub from "../../images/BookHub.png";
 
 const ProjectsSummary = () => {
 
@@ -50,6 +51,16 @@ const ProjectsSummary = () => {
       tags: "reactjs,express js,openAI API,tailwind,mongoDB, mongoose"
     },
     {
+      image: BookHub,
+      title: "BookHub",
+      description:
+        "This project is book catalog for the Book Hub service. It provides a simple interface to manage the book create, delete and also manage the authenticated user",
+      liveLink: "https://64b6d05ae288680eb570fd29--thriving-mermaid-cf1d9c.netlify.app/",
+      clientLink: "https://github.com/khanfaysal/BookHub-client",
+      serverLink: "https://github.com/khanfaysal/BookHub-server",
+      tags: "reactjs,express js,rtk query,tailwind,mongoDB, mongoose, firebase"
+    },
+    {
       image: todo,
       title: "Todo",
       description:
@@ -72,7 +83,7 @@ const ProjectsSummary = () => {
   ];
 
   const [showAll, setShowAll] = useState(false);
-  const numToShow = showAll ? projectsData.length : 4;
+  const numToShow = showAll ? projectsData.length : 6;
 
   return (
 
@@ -85,7 +96,7 @@ const ProjectsSummary = () => {
               <ProjectSummaryDetails key={proData.title} proData={proData} />
             ))}
           </div>
-          {projectsData.length > 4 && (
+          {projectsData.length > 6 && (
             <button className="brand-btn mt-5" onClick={() => setShowAll(!showAll)}>
               {showAll ? 'Show Less' : 'Show More'}
             </button>
