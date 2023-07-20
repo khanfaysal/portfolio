@@ -13,6 +13,27 @@ const ProjectsSummary = () => {
   const projectsData = [
 
     {
+      image: aiImage,
+      title: "Imajine",
+      description:
+        "This project done by openAI API with dall-e model. Dall-e model can translate description to image. User write their own description and get desire image. And showcase their generate image also download.",
+      liveLink: "https://courageous-arithmetic-fb1f4f.netlify.app/",
+      clientLink: "https://github.com/khanfaysal/ai-image-generation/tree/main/client",
+      serverLink: "https://github.com/khanfaysal/ai-image-generation/tree/main/server",
+      tags: "reactjs,express js,openAI API,tailwind,mongoDB, mongoose"
+    },
+
+    {
+      image: shopNyla,
+      title: "Shop Nyla (Bootcamp team project)",
+      description:
+        "Users can buy products after login into the applications.Delete, increase/decrease product quantity option exists. Users select a product they can ensure which product is selected and also see the product's total price, shipping cost, vat, and total price.",
+      liveLink: "https://shop-nyla.web.app/",
+      clientLink: "https://github.com/mir-hussain/shop-nyla-client/branches",
+      tags: "redux,reactjs,react-router,firebase-auth,emailjs"
+    },
+
+    {
       image: colorGenerate,
       title: "LizardUi",
       description:
@@ -31,25 +52,6 @@ const ProjectsSummary = () => {
       tags: "tailwind css,reactjs,react-router,firebase-auth"
     },
     
-    {
-      image: shopNyla,
-      title: "Shop Nyla (Bootcamp team project)",
-      description:
-        "Users can buy products after login into the applications.Delete, increase/decrease product quantity option exists. Users select a product they can ensure which product is selected and also see the product's total price, shipping cost, vat, and total price.",
-      liveLink: "https://shop-nyla.web.app/",
-      clientLink: "https://github.com/mir-hussain/shop-nyla-client/branches",
-      tags: "redux,reactjs,react-router,firebase-auth,emailjs"
-    },
-    {
-      image: aiImage,
-      title: "Imajine",
-      description:
-        "This project done by openAI API with dall-e model. Dall-e model can translate description to image. User write their own description and get desire image. And showcase their generate image also download.",
-      liveLink: "https://courageous-arithmetic-fb1f4f.netlify.app/",
-      clientLink: "https://github.com/khanfaysal/ai-image-generation/tree/main/client",
-      serverLink: "https://github.com/khanfaysal/ai-image-generation/tree/main/server",
-      tags: "reactjs,express js,openAI API,tailwind,mongoDB, mongoose"
-    },
     {
       image: BookHub,
       title: "BookHub",
