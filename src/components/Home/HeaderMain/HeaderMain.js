@@ -43,7 +43,7 @@ const HeaderMain = () => {
               </a>
             </li>
             <li>
-              <a href='https://drive.google.com/file/d/1iL1CtvufUDfmk-0GQZtMY6LyS81Lr3T7/view?usp=drive_link' target='_blank' rel="noreferrer">
+              <a href='https://drive.google.com/file/d/1jg4cn4SZlF2gJ9CeNIssEczmWroShg_A/view?usp=sharing' target='_blank' rel="noreferrer">
                 <FontAwesomeIcon icon={faFile}></FontAwesomeIcon>
               </a>
             </li>
