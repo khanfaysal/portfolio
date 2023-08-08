@@ -9,6 +9,7 @@ import BlogImage7 from '../../images/typescript-interview.webp';
 import BlogImage8 from '../../images/mongodb-query-interview.webp';
 import BlogImage9 from '../../images/eslint-logo.png';
 import BlogImage10 from '../../images/ecamascript-feature.webp';
+import BlogImage11 from '../../images/event-loop.png';
 import BlogsDetails from '../BlogsDetails/BlogsDetails';
 
 const Blogs = () => {
@@ -73,6 +74,12 @@ const Blogs = () => {
             title: 'What’s new in ECMAScript 2023.',
             // description: 'An array is a collection of elements or items. An array can be a collection of elements of any type like string, boolean, number, objects even other arrays. But unfortunately, the javascript data structure is a little bit different.',
             url: "https://devfaysalkhan.medium.com/whats-new-in-ecmascript-2023-es-14-75303b0fa7ea"
+        },
+        {
+            image: BlogImage11,
+            title: 'JavaScript Event Loop & its functions',
+            // description: 'An array is a collection of elements or items. An array can be a collection of elements of any type like string, boolean, number, objects even other arrays. But unfortunately, the javascript data structure is a little bit different.',
+            url: "https://devfaysalkhan.medium.com/javascript-event-loop-its-functions-59566199a911"
         }
     ]
     return (
