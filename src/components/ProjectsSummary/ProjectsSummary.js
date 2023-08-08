@@ -7,6 +7,7 @@ import pixel from "../../images/Pixel.png";
 import todo from "../../images/react-todo-dnd.png";
 import CowHutAPI from "../../images/backend-cow-api.png";
 import BookHub from "../../images/BookHub.png";
+import BuildPc from "../../images/build-tech-pc.png";
 
 const ProjectsSummary = () => {
 
@@ -31,6 +32,17 @@ const ProjectsSummary = () => {
       liveLink: "https://shop-nyla.web.app/",
       clientLink: "https://github.com/mir-hussain/shop-nyla-client/branches",
       tags: "redux,reactjs,react-router,firebase-auth,emailjs"
+    },
+
+    {
+      image: BuildPc,
+      title: "Build Pc",
+      description:
+        "Build Tech PC is a user-friendly web application designed for PC enthusiasts and tech-savvy users. The platform allows users to explore a wide range of PC components, view detailed specifications, and create their dream PC builds",
+      liveLink: "https://build-tech-pc.vercel.app/",
+      clientLink: "https://github.com/khanfaysal/build-tech-pc",
+      serverLink: "https://github.com/khanfaysal/build-tech-pc-server",
+      tags: "redux,nextjs,tailwind"
     },
 
     {
